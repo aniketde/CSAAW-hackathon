@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 
 NormalizationFlag = 1 # 0 is normalizing by norm, 1 is scale it, 2 is make it in between [0,1]
 SimilarityFlag = 1 #0 if euclidean DISTANCE (note distance and similarity), 1 if RKHS (mean embedding) with linear kernel, 2 if RKHS with Gaussian kernel
-Sim = getSimilarityMatrix(NormalizationFlag,SimilarityFlag)
-plot_network(Sim)
-
+Sim, datasetTotal = getSimilarityMatrix(NormalizationFlag,SimilarityFlag)
 
 SimEra = getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag)
+
+plot_network(SimEra,plot_type='geo')
