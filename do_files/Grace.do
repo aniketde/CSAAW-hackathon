@@ -20,6 +20,7 @@ gen id = _n
 
 keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site
 drop sb ba as sr v 
+/* drop v sr as ba sb al zn tb sm k eu */
 foreach element of varlist  * {
     disp "`element'"
     drop if missing(`element')
