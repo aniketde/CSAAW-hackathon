@@ -2,7 +2,7 @@
 capture eststo clear
 capture log close
 global root_dir `"c:/CSAAW-hackathon/"'
-global dta `"c:/CSAAW-hackathon/Site_specific_data"'
+global dta `"c:/CSAAW-hackathon/Code/Site_specific_data"'
 cd $root_dir
 
 import excel using LBNL_Greece_v2.xls, first clear case(lower) sheet("Database")
@@ -75,16 +75,16 @@ replace era_in_hundreds = 5 if era == "1 century BC-1 century AD"
 replace era_in_hundreds = . if era_in_hundreds == 0
 replace era_in_hundreds = 0 if era_in_hundreds == 5
 count
-save $dta/1198_era_fixed.dta, replace
-outsheet using $dta/1198_era_fixed.csv, comma replace
+/* save $dta/1198_era_fixed.dta, replace */
+/* outsheet using $dta/1198_era_fixed.csv, comma replace */
 
 * Count for the elements
 /* al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg */
 preserve
-keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site
+keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site  era_in_hundreds
 drop sb ba as sr v 
 /* drop v sr as ba sb al zn tb sm k eu */
-foreach element of varlist  * {
+foreach element of varlist  al-zn {
     disp "`element'"
     drop if missing(`element')
 }
@@ -127,190 +127,191 @@ v sr as ba sb al zn tb sm k eu
 */
 outsheet using Grace_elements_and_site.csv, comma  replace
 restore
+
 ** Exporting site-specific CSV files
 import delimited using Grace_elements_and_site.csv, delimit(",") clear
 tab site
 preserve
 keep if site == "Achaea"
 drop site
-outsheet using $dta/Achae.csv, replace comma nonames
+outsheet using $dta/Achae_era.csv, replace comma nonames
 restore
 preserve
 keep if site == "Chora-Ano Englianos, Messenia"
 drop site
-outsheet using $dta/Chora.csv, replace comma nonames
+outsheet using $dta/Chora_era.csv, replace comma nonames
 restore
 preserve
 keep if site == "Aegina"
 drop site
-outsheet using $dta/Aegin.csv, replace comma nonames
+outsheet using $dta/Aegin_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Asine"
 drop site
-outsheet using $dta/Asine.csv, replace comma nonames
+outsheet using $dta/Asine_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Athens"
 drop site
-outsheet using $dta/Athens.csv, replace comma nonames
+outsheet using $dta/Athens_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Berbati"
 drop site
-outsheet using $dta/Berbati.csv, replace comma nonames
+outsheet using $dta/Berbati_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Corfu"
 drop site
-outsheet using $dta/Corfu.csv, replace comma nonames
+outsheet using $dta/Corfu_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Corinth"
 drop site
-outsheet using $dta/Corinth.csv, replace comma nonames
+outsheet using $dta/Corinth_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Eutrey, Boeotia [Eutresis]"
 drop site
-outsheet using $dta/Eutrey.csv, replace comma nonames
+outsheet using $dta/Eutrey_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Festos [Phaistos]"
 drop site
-outsheet using $dta/Festos.csv, replace comma nonames
+outsheet using $dta/Festos_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Glas (Arne) [Gla]"
 drop site
-outsheet using $dta/Glas.csv, replace comma nonames
+outsheet using $dta/Glas_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Hagios Stephanos [Ayios Stephanos]"
 drop site
-outsheet using $dta/Hagios.csv, replace comma nonames
+outsheet using $dta/Hagios_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Kallithea"
 drop site
-outsheet using $dta/Kallithea.csv, replace comma nonames
+outsheet using $dta/Kallithea_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Kasteli Chania"
 drop site
-outsheet using $dta/Kasteli.csv, replace comma nonames
+outsheet using $dta/Kasteli_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Kenchreai"
 drop site
-outsheet using $dta/Kenchreai.csv, replace comma nonames
+outsheet using $dta/Kenchreai_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Knossos"
 drop site
-outsheet using $dta/Knossos.csv, replace comma nonames
+outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Korakou"
 drop site
-outsheet using $dta/Korakou.csv, replace comma nonames
+outsheet using $dta/Korakou_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Laurion"
 drop site
-outsheet using $dta/Laurion.csv, replace comma nonames
+outsheet using $dta/Laurion_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Mycenae"
 drop site
-outsheet using $dta/Mycenae.csv, replace comma nonames
+outsheet using $dta/Mycenae_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Nichoria"
 drop site
-outsheet using $dta/Nichoria.csv, replace comma nonames
+outsheet using $dta/Nichoria_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Olympia-Kolosakos, Elis"
 drop site
-outsheet using $dta/Olympia.csv, replace comma nonames
+outsheet using $dta/Olympia_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Orchemenos"
 drop site
-outsheet using $dta/Orchemenos.csv, replace comma nonames
+outsheet using $dta/Orchemenos_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Palaiokastro (Arcadia)"
 drop site
-outsheet using $dta/Palaiokastro.csv, replace comma nonames
+outsheet using $dta/Palaiokastro_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Perati (Attica)"
 drop site
-outsheet using $dta/Perati.csv, replace comma nonames
+outsheet using $dta/Perati_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Peristeria, Messenia [Peristeria]"
 drop site
-outsheet using $dta/Peristeria.csv, replace comma nonames
+outsheet using $dta/Peristeria_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Platanos-Renia, Elis"
 drop site
-outsheet using $dta/Platanos.csv, replace comma nonames
+outsheet using $dta/Platanos_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Rhodes"
 drop site
-outsheet using $dta/Rhodes.csv, replace comma nonames
+outsheet using $dta/Rhodes_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Tanagra"
 drop site
-outsheet using $dta/Tanagra.csv, replace comma nonames
+outsheet using $dta/Tanagra_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Thebes"
 drop site
-outsheet using $dta/Thebes.csv, replace comma nonames
+outsheet using $dta/Thebes_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Tiryns"
 drop site
-outsheet using $dta/Tiryns.csv, replace comma nonames
+outsheet using $dta/Tiryns_era.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Zygouries"
 drop site
-outsheet using $dta/Zygouries.csv, replace comma nonames
+outsheet using $dta/Zygouries_era.csv, replace comma nonames
 restore
 **********
