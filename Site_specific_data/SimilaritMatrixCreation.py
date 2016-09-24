@@ -25,7 +25,7 @@ def getSimilarityMatrix(NormalizationFlag,SimilarityFlag):
     dataset_list = []
     for files in glob.glob("*.csv"):
         dataset_list.append(files)
-        #print files 
+        print files 
     
     N = len(dataset_list)
     dataset = genfromtxt(dataset_list[1], delimiter=',')
@@ -46,6 +46,7 @@ def getSimilarityMatrix(NormalizationFlag,SimilarityFlag):
         if NormalizationFlag == 0:
             dataset_normalized = preprocessing.normalize(datasetX, norm='l2')
         elif NormalizationFlag == 1:
+            print datasetX
             dataset_normalized = preprocessing.scale(datasetX)
         elif NormalizationFlag == 2:
             min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 1))
@@ -87,7 +88,3 @@ def getSimilarityMatrix(NormalizationFlag,SimilarityFlag):
     return Sim
 
 
-NormalizationFlag = 1 # 0 is normalizing by norm, 1 is scale it, 2 is make it in between [0,1]
-SimilarityFlag = 1 #0 if euclidean DISTANCE (note distance and similarity), 1 if RKHS (mean embedding) with linear kernel, 2 if RKHS with Gaussian kernel
-Sim = getSimilarityMatrix(NormalizationFlag,SimilarityFlag)
-print Sim

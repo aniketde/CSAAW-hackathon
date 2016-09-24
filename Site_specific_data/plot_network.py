@@ -22,10 +22,7 @@ def plot_network(S,thres,matrix_type):
 
     #Draw the random graph
     g=nx.from_numpy_matrix(S_binary)
-    #g_layout = nx.spring_layout(g, iterations=1000)
-    #nx.draw_networkx(g, pos=g_layout, node_color='#dddddd')
 
-    g_layout = nx.spring_layout(g, iterations=1000)
     nx.draw_networkx(g, pos=g_layout, node_color='#dddddd')
 
 
