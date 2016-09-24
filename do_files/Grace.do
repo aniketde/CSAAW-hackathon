@@ -18,23 +18,58 @@ gen id = _n
 * Count for the elements
 /* al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg */
 
-preserve
 keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site
-brow if id==1
-foreach element of varlist al-zn {
+drop sb ba as sr v 
+foreach element of varlist  * {
+    disp "`element'"
     drop if missing(`element')
 }
 count
+/*
+sb ba as sr v 
+v sr as ba sb al zn tb sm k eu
+742	v
+726	sr
+719	as
+715	ba
+714	sb
+273	al
+264	zn
+264	tb
+257	sm
+253	k
+253	eu
+253	dy
+249	rb
+249	ni
+249	nd
+247	yb
+247	ce
+239	ca
+238	na
+238	mn
+235	cs
+233	ti
+232	u
+232	th
+232	ta
+232	sc
+232	lu
+232	la
+232	hf
+232	fe
+232	cr
+232	co
+ * /
 outsheet using Grace_elements_and_site.csv, comma  replace
-restore
 
 
 *******************************Fix the time-frame*******************************
 tab era
-gen ear_in_hundreds = 0
-/*
-1 century BC-1 century AD
-11th-10th Century B.C.
+gen era_in_hundreds = 0
+
+replace era_in_hundreds = 5 if era == "1 century BC-1 century AD"
+replace era_in_hundreds = 1050 if era == "11th-10th Century B.C."
 2-3 Century AD
 2nd Century B.C.
 3rd Century B.C.
@@ -89,5 +124,5 @@ Middle Bronze Age
 Middle Helladic
 Modern
 Neolithic
- Roman
-*/
+Roman
+
