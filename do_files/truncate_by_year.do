@@ -8,6 +8,8 @@ cd $root_dir
 ***********************************4000_1400************************************
 global dta `"c:/CSAAW-hackathon/Code/Site_Specific_data_Truncated_by_ERA/4000_1400"'
 import delimited using Grace_elements_and_site.csv, delimit(",") clear
+replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
+keep  al ca dy mn na k u eu sm la ti lu nd co sc fe ce yb cs ta cr th ni rb tb hf zn id  site  era_in_hundreds
 keep if era_in_hundreds > -4000 & era_in_hundreds < -1400
 preserve
 keep if site == "Achaea"
@@ -100,7 +102,6 @@ restore
 preserve
 keep if site == "Knossos"
 drop site
-replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
 outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
@@ -199,6 +200,7 @@ restore
 ***********************************1399_1300************************************
 global dta `"c:/CSAAW-hackathon/Code/Site_Specific_data_Truncated_by_ERA/1399_1300"'
 import delimited using Grace_elements_and_site.csv, delimit(",") clear
+keep  al ca dy mn na k u eu sm la ti lu nd co sc fe ce yb cs ta cr th ni rb tb hf zn id  site  era_in_hundreds
 keep if era_in_hundreds > -1399 & era_in_hundreds < -1300
 preserve
 keep if site == "Achaea"
@@ -291,7 +293,6 @@ restore
 preserve
 keep if site == "Knossos"
 drop site
-replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
 outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
@@ -389,6 +390,7 @@ restore
 ***********************************1299_1200************************************
 global dta `"c:/CSAAW-hackathon/Code/Site_Specific_data_Truncated_by_ERA/1299_1200"'
 import delimited using Grace_elements_and_site.csv, delimit(",") clear
+keep  al ca dy mn na k u eu sm la ti lu nd co sc fe ce yb cs ta cr th ni rb tb hf zn id  site  era_in_hundreds
 keep if era_in_hundreds > -1299 & era_in_hundreds < -1200
 preserve
 keep if site == "Achaea"
@@ -481,7 +483,6 @@ restore
 preserve
 keep if site == "Knossos"
 drop site
-replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
 outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
@@ -580,6 +581,7 @@ restore
 ***********************************1199_1050************************************
 global dta `"c:/CSAAW-hackathon/Code/Site_Specific_data_Truncated_by_ERA/1199_1050"'
 import delimited using Grace_elements_and_site.csv, delimit(",") clear
+keep  al ca dy mn na k u eu sm la ti lu nd co sc fe ce yb cs ta cr th ni rb tb hf zn id  site  era_in_hundreds
 keep if era_in_hundreds > -1199 & era_in_hundreds < -1050
 preserve
 keep if site == "Achaea"
@@ -672,7 +674,6 @@ restore
 preserve
 keep if site == "Knossos"
 drop site
-replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
 outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
@@ -771,6 +772,7 @@ restore
 ***********************************1050_on_ward************************************
 global dta `"c:/CSAAW-hackathon/Code/Site_Specific_data_Truncated_by_ERA/1050_on_ward"'
 import delimited using Grace_elements_and_site.csv, delimit(",") clear
+keep  al ca dy mn na k u eu sm la ti lu nd co sc fe ce yb cs ta cr th ni rb tb hf zn id  site  era_in_hundreds
 keep if era_in_hundreds > -1050 
 preserve
 keep if site == "Achaea"
@@ -863,7 +865,6 @@ restore
 preserve
 keep if site == "Knossos"
 drop site
-replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
 outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
