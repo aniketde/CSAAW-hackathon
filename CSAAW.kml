@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>CSAAW</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Sites</name>
+			<Placemark>
+				<name>Achaea</name>
+				<description><![CDATA[major Mycenaean settlement. 12-13cent BC, it was important in trade]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.859000000000037,38.086,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zygouries</name>
+				<description><![CDATA[37.793 22.779]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.778999999999996,37.793,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Aegina
+</name>
+				<description><![CDATA[maritime center in 7th/6th cent. BC. War with Athens in the 5th cent BC.]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>23.423000000000002,37.75,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Argos</name>
+				<description><![CDATA[7km from water, most prominent in post-Mycenaean period]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.716000000000008,37.616,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tanagra</name>
+				<description><![CDATA[38.316 23.533]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>23.533000000000015,38.316,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Asine
+</name>
+				<description><![CDATA[Composed of an acropolis, town, 2 cemeteries. A major city post Bronze age.]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.874000000000024,37.526,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Athens</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>23.716000000000008,37.966,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Berbati</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>22.840000000000032,37.713,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tiryns</name>
+				<description><![CDATA[37.599 22.799]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.798999999999978,37.599,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kenchreai</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>22.986999999999966,37.885,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Corfu</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>19.918000000000006,39.599,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Thebes</name>
+				<description><![CDATA[38.316 23.316]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>23.31600000000003,38.316,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kasteli Chania
+</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>24.01800000000003,35.516,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chora-Ano Englianos
+</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>21.716000000000008,37.05,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mycenae</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>22.755999999999972,37.73,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hagios Stephanos [Ayios Stephanos]</name>
+				<description><![CDATA[36.834 22.605]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.605000000000018,36.834,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Corinth</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>22.932000000000016,37.932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rhodes</name>
+				<description><![CDATA[36.437 28.213]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>28.213,36.437,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eutrey
+</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>23.200000000000045,38.29,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Platanos-Renia, Elis</name>
+				<description><![CDATA[37.668 21.61]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.610000000000014,37.668,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Festos</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>24.812999999999988,35.051,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Glas</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>23.182000000000016,38.483,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pylos</name>
+				<description><![CDATA[36.912 21.696]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.696000000000026,36.912,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Iria</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>25.379999999999995,37.077,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Palaiokastro (Arcadia)</name>
+				<description><![CDATA[37.539 21.96]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.960000000000036,37.539,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kallithea</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>23.701999999999998,37.955,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Peristeria, Messenia [Peristeria]</name>
+				<description><![CDATA[37.311 21.721]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.721000000000004,37.311,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Knossos</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>25.16300000000001,35.297,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Perati (Attica)</name>
+				<description><![CDATA[37.917 34.017]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>34.01700000000005,37.917,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Korakou</name>
+				<description><![CDATA[most large vessels were imported from Crete in LH I]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.892000000000053,37.932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Olympia-Kolosakos, Elis</name>
+				<description><![CDATA[37.647 21.615]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.61500000000001,37.647,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Laurion</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>24.049999999999955,37.7,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Neo Nikomedia</name>
+				<description><![CDATA[40.587 22.251]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>22.250999999999976,40.587,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nichoria</name>
+				<description><![CDATA[37 21.913]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>21.91300000000001,37.0,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Milos</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>24.41599999999994,36.683,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1899-0288D1-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1899-0288D1-nodesc-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
