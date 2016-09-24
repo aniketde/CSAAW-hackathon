@@ -81,7 +81,7 @@ count
 * Count for the elements
 /* al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg */
 preserve
-keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site  era_in_hundreds ware
+/* keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site  era_in_hundreds ware */
 drop sb ba as sr v 
 /* drop v sr as ba sb al zn tb sm k eu */
 foreach element of varlist  al-zn {
