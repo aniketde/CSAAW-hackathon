@@ -7,18 +7,80 @@ cd $root_dir
 
 import excel using LBNL_Greece_v2.xls, first clear case(lower) sheet("Database")
 * lbnlid murrid alternateid site latitude longitude context excavator sourceperson affiliation material ware fabric exteriordecoration form specificform piece group era temper notes analyticalnotes powderpresentinarchives datasource run entry al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg
-
 drop if missing(lbnlid)
 gen id = _n
-
 * Key variables:
 * era: Era
 * site: where found, plus lat-lon
-
+*******************************Fix the time-frame*******************************
+tab era
+gen era_in_hundreds = 0
+replace era_in_hundreds = -1050 if era == "11th-10th Century B.C."
+replace era_in_hundreds = 150 if era == "2-3 Century AD"
+replace era_in_hundreds = -200 if era == "2nd Century B.C."
+replace era_in_hundreds = -300 if era == "3rd Century B.C."
+replace era_in_hundreds = -400 if era == "4th Century B.C."
+replace era_in_hundreds = -350 if era == "4th-3rd Century B.C."
+replace era_in_hundreds = 400 if era == "5th Century"
+replace era_in_hundreds = -500 if era == "5th Century B.C."
+replace era_in_hundreds = -400 if era == "5th-3rd Century B.C."
+replace era_in_hundreds = -6000 if era == "6000 B.C."
+replace era_in_hundreds = -600 if era == "6th Century B.C."
+replace era_in_hundreds = -700 if era == "7th Century B.C."
+replace era_in_hundreds = -750 if era == "8th - 7th Century B.C."
+replace era_in_hundreds = -800 if era == "8th Century B.C."
+replace era_in_hundreds = -750 if era == "8th-7th Century B.C."
+replace era_in_hundreds = -3200 if era == "Early Helladic"
+replace era_in_hundreds = -6500 if era == "Early Neolithic"
+replace era_in_hundreds = -1250 if era == "LM III B, 1300, 1200"
+replace era_in_hundreds = -1250 if era == "LM III B, 1300-1200"
+replace era_in_hundreds = -400 if era == "Late Corinthian"
+replace era_in_hundreds = -1200 if era == "Late Helladic  III B-C, 1300-1050"
+replace era_in_hundreds = -1450 if era == "Late Helladic I and II"
+replace era_in_hundreds = -1550 if era == "Late Helladic I, 1580-1500"
+replace era_in_hundreds = -1480 if era == "Late Helladic I-II, 1580-1400"
+replace era_in_hundreds = -1470 if era == "Late Helladic II, 1500-1400"
+replace era_in_hundreds = -1335 if era == "Late Helladic II-IIIA"
+replace era_in_hundreds = -1390 if era == "Late Helladic II-IIIA, 1500-1375"
+replace era_in_hundreds = -1350 if era == "Late Helladic III A, 1400-1300"
+replace era_in_hundreds = -1350 if era == "Late Helladic III A-B"
+replace era_in_hundreds = -1351 if era == "Late Helladic III B"
+replace era_in_hundreds = -1250 if era == "Late Helladic III B, 1300-1200"
+replace era_in_hundreds = -1105 if era == "Late Helladic III B-C, 1300-1050"
+replace era_in_hundreds = -1100 if era == "Late Helladic III C, 1300-1050"
+replace era_in_hundreds = -1300 if era == "Late Helladic IIIA (ca. 1300 B.C.)"
+replace era_in_hundreds = -1300 if era == "Late Helladic IIIA (ca. 1300B.C.)"
+replace era_in_hundreds = -1350 if era == "Late Helladic IIIA, 1400-1300"
+replace era_in_hundreds = -1365 if era == "Late Helladic IIIA, 1400-1375"
+replace era_in_hundreds = -1300 if era == "Late Helladic IIIA-B, 1400-1200"
+replace era_in_hundreds = -1350 if era == "Late Helladic IIIA-IIIB, 1375-1200"
+replace era_in_hundreds = -1245 if era == "Late Helladic IIIB"
+replace era_in_hundreds = -1250 if era == "Late Helladic IIIB, 1300-1200"
+replace era_in_hundreds = -1250 if era == "Late Helladic IIIB?, 1300-1200"
+replace era_in_hundreds = -1150 if era == "Late Helladic IIIC, 1200-1050"
+replace era_in_hundreds = -1150 if era == "Late Helladic IIIC, 1200-1050 B.C."
+replace era_in_hundreds = -1300 if era == "Late Minoan III A-B, 1400-1200"
+replace era_in_hundreds = -1250 if era == "Late Minoan III B 1300-1200"
+replace era_in_hundreds = -1150 if era == "Late Minoan III C 1200-1100"
+replace era_in_hundreds = -1150 if era == "Late Minoan LM III C, 1200, 1100"
+replace era_in_hundreds = -1350 if era == "Late Mycenaean IIIA"
+replace era_in_hundreds = -1349 if era == "Late Mycenaean IIIB"
+replace era_in_hundreds = -1348 if era == "Late Mycenaean IIIC"
+replace era_in_hundreds = -1800 if era == "Middle Bronze Age"
+replace era_in_hundreds = -1091 if era == "Middle Helladic"
+replace era_in_hundreds = 2000 if era == "Modern"
+replace era_in_hundreds = -10000 if era == "Neolithic"
+replace era_in_hundreds = 200 if era == "Roman"
+replace era_in_hundreds = 5 if era == "1 century BC-1 century AD"
+replace era_in_hundreds = . if era_in_hundreds == 0
+replace era_in_hundreds = 0 if era_in_hundreds == 5
+count
+save $dta/1198_era_fixed.dta, replace
+outsheet using $dta/1198_era_fixed.csv, comma replace
 
 * Count for the elements
 /* al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg */
-
+preserve
 keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site
 drop sb ba as sr v 
 /* drop v sr as ba sb al zn tb sm k eu */
@@ -64,9 +126,10 @@ v sr as ba sb al zn tb sm k eu
 232	co
 */
 outsheet using Grace_elements_and_site.csv, comma  replace
+restore
 ** Exporting site-specific CSV files
+import delimited using Grace_elements_and_site.csv, delimit(",") clear
 tab site
-
 preserve
 keep if site == "Achaea"
 drop site
@@ -251,68 +314,3 @@ drop site
 outsheet using $dta/Zygouries.csv, replace comma nonames
 restore
 **********
-
-
-
-*******************************Fix the time-frame*******************************
-tab era
-gen era_in_hundreds = 0
-
-replace era_in_hundreds = 5 if era == "1 century BC-1 century AD"
-replace era_in_hundreds = -1050 if era == "11th-10th Century B.C."
-replace era_in_hundreds = 150 if era == "2-3 Century AD"
-replace era_in_hundreds = -200 if era == "2nd Century B.C."
-replace era_in_hundreds = -300 if era == "3rd Century B.C."
-replace era_in_hundreds = -400 if era == "4th Century B.C."
-replace era_in_hundreds = -350 if era == "4th-3rd Century B.C."
-replace era_in_hundreds = 400 if era == "5th Century"
-replace era_in_hundreds = -500 if era == "5th Century B.C."
-replace era_in_hundreds = -400 if era == "5th-3rd Century B.C."
-replace era_in_hundreds = -6000 if era == "6000 B.C."
-replace era_in_hundreds = -600 if era == "6th Century B.C."
-replace era_in_hundreds = -700 if era == "7th Century B.C."
-replace era_in_hundreds = -750 if era == "8th - 7th Century B.C."
-replace era_in_hundreds = -800 if era == "8th Century B.C."
-replace era_in_hundreds = -750 if era == "8th-7th Century B.C."
-replace era_in_hundreds = -3200 if era == "Early Helladic"
-replace era_in_hundreds = -6500 if era == "Early Neolithic"
-replace era_in_hundreds = -1250 if era == "LM III B, 1300, 1200"
-replace era_in_hundreds = -1250 if era == "LM III B, 1300-1200"
-replace era_in_hundreds =  if era == "Late Corinthian"
-Late Helladic  III B-C, 1300-1050
-Late Helladic I and II
-Late Helladic I, 1580-1500
-Late Helladic I-II, 1580-1400
-Late Helladic II, 1500-1400
-Late Helladic II-IIIA
-Late Helladic II-IIIA, 1500-1375
-Late Helladic III A, 1400-1300
-Late Helladic III A-B
-Late Helladic III B
-Late Helladic III B, 1300-1200
-Late Helladic III B-C, 1300-1050
-Late Helladic III C, 1300-1050
-Late Helladic IIIA (ca. 1300 B.C.)
-Late Helladic IIIA (ca. 1300B.C.)
-Late Helladic IIIA, 1400-1300
-Late Helladic IIIA, 1400-1375
-Late Helladic IIIA-B, 1400-1200
-Late Helladic IIIA-IIIB, 1375-1200
-Late Helladic IIIB
-Late Helladic IIIB, 1300-1200
-Late Helladic IIIB?, 1300-1200
-Late Helladic IIIC, 1200-1050
-Late Helladic IIIC, 1200-1050 B.C.
-Late Minoan III A-B, 1400-1200
-Late Minoan III B 1300-1200
-Late Minoan III C 1200-1100
-Late Minoan LM III C, 1200, 1100
-Late Mycenaean IIIA
-Late Mycenaean IIIB
-Late Mycenaean IIIC
-Middle Bronze Age
-Middle Helladic
-Modern
-Neolithic
-Roman
-
