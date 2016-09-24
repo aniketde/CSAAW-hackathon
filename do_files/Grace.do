@@ -69,155 +69,186 @@ tab site
 
 preserve
 keep if site == "Achaea"
-save $dta/Achae.dta, replace
+drop site
+outsheet using $dta/Achae.csv, replace comma nonames
 restore
 preserve
 keep if site == "Chora-Ano Englianos, Messenia"
-save $dta/Chora.dta, replace
+drop site
+outsheet using $dta/Chora.csv, replace comma nonames
 restore
 preserve
 keep if site == "Aegina"
-save $dta/Aegin.dta, replace
+drop site
+outsheet using $dta/Aegin.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Asine"
-save $dta/Asine.dta, replace
+drop site
+outsheet using $dta/Asine.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Athens"
-save $dta/Athens.dta, replace
+drop site
+outsheet using $dta/Athens.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Berbati"
-save $dta/Berbati.dta, replace
+drop site
+outsheet using $dta/Berbati.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Corfu"
-save $dta/Corfu.dta, replace
+drop site
+outsheet using $dta/Corfu.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Corinth"
-save $dta/Corinth.dta, replace
+drop site
+outsheet using $dta/Corinth.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Eutrey, Boeotia [Eutresis]"
-save $dta/Eutrey.dta, replace
+drop site
+outsheet using $dta/Eutrey.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Festos [Phaistos]"
-save $dta/Festos.dta, replace
+drop site
+outsheet using $dta/Festos.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Glas (Arne) [Gla]"
-save $dta/Glas.dta, replace
+drop site
+outsheet using $dta/Glas.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Hagios Stephanos [Ayios Stephanos]"
-save $dta/Hagios.dta, replace
+drop site
+outsheet using $dta/Hagios.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Kallithea"
-save $dta/Kallithea.dta, replace
+drop site
+outsheet using $dta/Kallithea.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Kasteli Chania"
-save $dta/Kasteli.dta, replace
+drop site
+outsheet using $dta/Kasteli.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Kenchreai"
-save $dta/Kenchreai.dta, replace
+drop site
+outsheet using $dta/Kenchreai.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Knossos"
-save $dta/Knossos.dta, replace
+drop site
+outsheet using $dta/Knossos.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Korakou"
-save $dta/Korakou.dta, replace
+drop site
+outsheet using $dta/Korakou.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Laurion"
-save $dta/Laurion.dta, replace
+drop site
+outsheet using $dta/Laurion.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Mycenae"
-save $dta/Mycenae.dta, replace
+drop site
+outsheet using $dta/Mycenae.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Nichoria"
-save $dta/Nichoria.dta, replace
+drop site
+outsheet using $dta/Nichoria.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Olympia-Kolosakos, Elis"
-save $dta/Olympia.dta, replace
+drop site
+outsheet using $dta/Olympia.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Orchemenos"
-save $dta/Orchemenos.dta, replace
+drop site
+outsheet using $dta/Orchemenos.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Palaiokastro (Arcadia)"
-save $dta/Palaiokastro.dta, replace
+drop site
+outsheet using $dta/Palaiokastro.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Perati (Attica)"
-save $dta/Perati.dta, replace
+drop site
+outsheet using $dta/Perati.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Peristeria, Messenia [Peristeria]"
-save $dta/Peristeria.dta, replace
+drop site
+outsheet using $dta/Peristeria.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Platanos-Renia, Elis"
-save $dta/Platanos.dta, replace
+drop site
+outsheet using $dta/Platanos.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Rhodes"
-save $dta/Rhodes.dta, replace
+drop site
+outsheet using $dta/Rhodes.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Tanagra"
-save $dta/Tanagra.dta, replace
+drop site
+outsheet using $dta/Tanagra.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Thebes"
-save $dta/Thebes.dta, replace
+drop site
+outsheet using $dta/Thebes.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Tiryns"
-save $dta/Tiryns.dta, replace
+drop site
+outsheet using $dta/Tiryns.csv, replace comma nonames
 restore
 **********
 preserve
 keep if site == "Zygouries"
-save $dta/Zygouries.dta, replace
+drop site
+outsheet using $dta/Zygouries.csv, replace comma nonames
 restore
 **********
 
