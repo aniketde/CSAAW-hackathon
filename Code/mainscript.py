@@ -13,3 +13,6 @@ NormalizationFlag = 1 # 0 is normalizing by norm, 1 is scale it, 2 is make it in
 SimilarityFlag = 1 #0 if euclidean DISTANCE (note distance and similarity), 1 if RKHS (mean embedding) with linear kernel, 2 if RKHS with Gaussian kernel
 Sim = getSimilarityMatrix(NormalizationFlag,SimilarityFlag)
 plot_network(Sim)
+
+
+SimEra = getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag)
