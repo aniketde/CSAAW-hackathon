@@ -9,6 +9,7 @@ from sklearn.metrics.pairwise import euclidean_distances
 import sklearn.metrics.pairwise as Kern
 from sklearn import preprocessing 
 import glob
+import os
 
 def getSigma(X,sigmaType):
     [n,d] = X.shape
@@ -23,7 +24,8 @@ def getSigma(X,sigmaType):
 
 def getSimilarityMatrix(NormalizationFlag,SimilarityFlag):
     dataset_list = []
-    for files in glob.glob("*.csv"):
+    cwd = os.getcwd()
+    for files in glob.glob(cwd + "/Site_specific_data/*.csv"):
         dataset_list.append(files)
         print files 
     
