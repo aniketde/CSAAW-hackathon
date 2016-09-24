@@ -19,13 +19,19 @@ gen id = _n
 /* al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg */
 
 preserve
-keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg  id  site
-outsheet using Grace_elements_and_site.csv, comma 
+keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site
+brow if id==1
+foreach element of varlist al-zn {
+    drop if missing(`element')
+}
+count
+outsheet using Grace_elements_and_site.csv, comma  replace
 restore
 
 
 *******************************Fix the time-frame*******************************
 tab era
+gen ear_in_hundreds = 0
 /*
 1 century BC-1 century AD
 11th-10th Century B.C.
