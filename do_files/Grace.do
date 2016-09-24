@@ -81,7 +81,7 @@ count
 * Count for the elements
 /* al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn bg */
 preserve
-keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site  era_in_hundreds
+keep  al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta sb cr th ni rb tb hf zn id  site  era_in_hundreds ware
 drop sb ba as sr v 
 /* drop v sr as ba sb al zn tb sm k eu */
 foreach element of varlist  al-zn {
@@ -222,6 +222,7 @@ restore
 preserve
 keep if site == "Knossos"
 drop site
+replace era_in_hundreds = -1250 if ware == "Late Minoan III Fine Ware"
 outsheet using $dta/Knossos_era.csv, replace comma nonames
 restore
 **********
