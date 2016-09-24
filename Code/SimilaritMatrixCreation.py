@@ -149,7 +149,7 @@ def getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag):
                 EraSim = np.zeros([X_ii.shape[0],X_jj.shape[0]])
                 for pp in range(0,X_ii.shape[0]):
                     for qq in range(0,X_jj.shape[0]):
-                        EraSim[pp,qq] = X_iiEra[pp] - X_jjEra[qq]
+                        EraSim[pp,qq] = np.sign(X_iiEra[pp] - X_jjEra[qq])
                 
                 
                 Sim[ii,jj] = np.mean(SimWithinSite*EraSim)
