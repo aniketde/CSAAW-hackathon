@@ -8,10 +8,9 @@ from copy import copy
 from mpl_toolkits.basemap import Basemap
 import csv
 
-def plot_network(Sim,plot_type='geo'):
+def plot_network(Sim,plot_type='geo',timeline="All_filtered"):
     thres=10**(-4.5)
     matrix_type='sim'
-    
     
     low_values_indices = Sim < thres # Where values are low
     high_values_indices = Sim >= thres # Where values are high
@@ -66,17 +65,22 @@ def plot_network(Sim,plot_type='geo'):
                 suppress_ticks=True)
 
     
-        with open('coordinates.csv', mode='r') as infile:
+        with open('coordinates_'+timeline+'.csv', mode='r') as infile:
             reader = csv.reader(infile)
             next(reader, None)  # skip the headers
             positions={}
             names={}
+            mapping={}
+            count=0
             for rows in reader:
-            
                 mx,my=m(float(rows[2]),float(rows[1]))
                 positions.update({int(rows[0]):(mx,my)})
                 names.update({int(rows[0]):rows[3]})
+                mapping.update({count: int(rows[0])})
+                count +=1
                 
+        print g.nodes  
+        g=nx.relabel_nodes(g,mapping)     
         nx.draw_networkx(g, pos=positions,labels=names,node_size=5,node_color='#dddddd',edge_color='b')
 
         # draw coastlines.
