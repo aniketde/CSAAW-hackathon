@@ -8,8 +8,8 @@ from copy import copy
 from mpl_toolkits.basemap import Basemap
 import csv
 
-def plot_network(Sim,plot_type='geo',timeline="All_filtered"):
-    thres=10**(-4.5)
+def plot_network(Sim,plot_type='geo',thres=10**(-5),timeline="All_filtered",label_type='names'):
+
     matrix_type='sim'
     
     low_values_indices = Sim < thres # Where values are low
@@ -23,6 +23,7 @@ def plot_network(Sim,plot_type='geo',timeline="All_filtered"):
         S_binary[low_values_indices] = 0 
         S_binary[high_values_indices] = 1
     
+    print S_binary
     #Draw the random graph
     g=nx.from_numpy_matrix(S_binary)
     #Sim
@@ -78,10 +79,12 @@ def plot_network(Sim,plot_type='geo',timeline="All_filtered"):
                 names.update({int(rows[0]):rows[3]})
                 mapping.update({count: int(rows[0])})
                 count +=1
-                
-        print g.nodes  
-        g=nx.relabel_nodes(g,mapping)     
-        nx.draw_networkx(g, pos=positions,labels=names,node_size=5,node_color='#dddddd',edge_color='b')
+
+        g=nx.relabel_nodes(g,mapping) 
+        if label_type=='names':     
+            nx.draw_networkx(g, pos=positions,labels=names,node_size=5,node_color='#dddddd',edge_color='b')
+        elif label_type=='numbers':
+            nx.draw_networkx(g, pos=positions,node_color='#dddddd',edge_color='b')
 
         # draw coastlines.
         #m.drawcoastlines()
@@ -96,13 +99,28 @@ def plot_network(Sim,plot_type='geo',timeline="All_filtered"):
         m.drawlsmask(land_color='coral',ocean_color='aqua',lakes=True)
 
     elif plot_type=='plain':
-        #Draw the random graph
-        positions = nx.spring_layout(g, iterations=1000)
 
-        nx.draw_networkx(g, pos=positions,node_color='#dddddd',edge_color='b',arrows=True)
-    
-    
-  
-    
-    plt.show()
+        
+        with open('coordinates_'+timeline+'.csv', mode='r') as infile:
+            reader = csv.reader(infile)
+            next(reader, None)  # skip the headers
+            names={}
+            mapping={}
+            count=0
+            for rows in reader:
+                names.update({int(rows[0]):rows[3]})
+                mapping.update({count: int(rows[0])})
+                count +=1
+             
+            print names
+            print mapping
+                 
+        g=nx.relabel_nodes(g,mapping) 
+        positions = nx.spring_layout(g, iterations=1000)   
+        if label_type=='names':     
+            nx.draw_networkx(g, pos=positions,labels=names,node_size=5,node_color='#dddddd',edge_color='b')
+        elif label_type=='numbers':
+            nx.draw_networkx(g, pos=positions,node_color='#dddddd',edge_color='b')
+
+    plt.savefig(timeline+'_'+plot_type+'.png')
 
