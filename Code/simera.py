@@ -14,5 +14,5 @@ SimilarityFlag = 1 #0 if euclidean DISTANCE (note distance and similarity), 1 if
 
 
 SimEra = getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag,filepath)
-    
+print SimEra    
 plot_network(abs(SimEra),plot_type='plain',label_type='numbers')

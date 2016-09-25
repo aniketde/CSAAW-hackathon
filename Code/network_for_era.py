@@ -50,7 +50,11 @@ def network_for_era(timeline):
     
     filepath = "/Site_specific_data_with_ERA/"
     SimEra = getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag,filepath)
-    
+    print SimEra
+    S_direction=np.zeros([SimEra.shape[0],SimEra.shape[1]])
+    S_direction[SimEra > 10**(-4.5) ]=1
+    S_direction[SimEra<= -10**(-4.5)]=-1
+    print S_direction
     #plot_network(Sim,plot_type='geo',timeline=timeline,thres=thres,label_type='numbers')
     plot_era_network(abs(SimEra),plot_type='plain',timeline=timeline,thres=thres,label_type='names')
     

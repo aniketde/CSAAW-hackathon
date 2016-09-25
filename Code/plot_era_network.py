@@ -25,6 +25,8 @@ def plot_era_network(Sim,plot_type='plain',thres=10**(-5),timeline="All_filtered
     
     print S_binary
     #Draw the random graph
+
+    
     g=nx.from_numpy_matrix(S_binary)
     #Sim
     plt.figure()
