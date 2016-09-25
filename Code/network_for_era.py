@@ -1,5 +1,6 @@
 from SimilaritMatrixCreation import *
 from plot_network import *
+from plot_era_network import *
 import numpy as np
 from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
@@ -50,5 +51,6 @@ def network_for_era(timeline):
     filepath = "/Site_specific_data_with_ERA/"
     SimEra = getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag,filepath)
     
-    plot_network(Sim,plot_type='geo',timeline=timeline,thres=thres,label_type='numbers')
+    #plot_network(Sim,plot_type='geo',timeline=timeline,thres=thres,label_type='numbers')
+    plot_era_network(abs(SimEra),plot_type='plain',timeline=timeline,thres=thres,label_type='names')
     
