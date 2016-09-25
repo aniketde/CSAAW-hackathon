@@ -22,10 +22,10 @@ def getSigma(X,sigmaType):
     
     return sigma
 
-def getSimilarityMatrix(NormalizationFlag,SimilarityFlag):
+def getSimilarityMatrix(NormalizationFlag,SimilarityFlag,filepath):
     dataset_list = []
     cwd = os.getcwd()
-    for files in glob.glob(cwd + "/Site_specific_data/*.csv"):
+    for files in glob.glob(cwd +filepath+ "*.csv"):
         dataset_list.append(files)
     
     N = len(dataset_list)
@@ -89,10 +89,10 @@ def getSimilarityMatrix(NormalizationFlag,SimilarityFlag):
     return Sim, datasetTotal
 
 
-def getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag):
+def getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag,filepath):
     dataset_list = []
     cwd = os.getcwd()
-    for files in glob.glob(cwd + "/Site_specific_data_with_ERA/*.csv"):
+    for files in glob.glob(cwd + filepath+"*.csv"):
         dataset_list.append(files)
     
     N = len(dataset_list)
