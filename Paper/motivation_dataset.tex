@@ -1,1 +1,34 @@
- 
+\subsection{Motivation and Summary Stats}
+Archaeological studies has been actively inviting the analytical methods from
+the entire spectrum of social science studies. However, when it comes to the
+application of machine-learning techniques, we have not seen much done recently.
+Therefore, we set out to explore the archaeological databases, searching for
+datasets that are rich enough, in terms of dimensions of the observables.
+
+Baring the capability of machine-learning in mind, we found the 
+Lawrence Berkeley National Laboratory (LBNL) Nuclear Archaeology Program
+Archives %\cite?? [the archive]
+of particular interest, as it not only contains geographical and historical
+records of the artifacts, it also carry the chemical compositions for most of
+its records.
+
+
+Due to limited time and resources, we focused exclusively on the Greece records,
+totaling 886 pieces of artifacts from ancient Greece, discovered from 31
+archaeological sites\footnote{30 in Greece, and one (Perati in Attica) in
+Turkey.}.  The time frame in our sample covers from the Early Helladic era
+(around 3200 BC) to Roman Republic. 
+
+\subsection{Data manipulation}
+For the records of artifacts from Greece, the dataset came with 1,198
+observations in the begining, pulled directly from \verb|http://core.tdar.org/|.
+The variables include the discovery site, the associating era, geo-coordinates
+and the chemical compositions of 33 elements\footnote{Elements are:
+    \textit{al ca v dy mn na k sr as u eu ba sm la ti lu nd co sc fe ce yb cs ta
+    sb cr th ni rb tb hf zn}
+}. However, the chemical composition
+data is not complete. Thus, we dropped a subset of observations as well as
+insignificant variables of elements (\textit{sb ba as sr v}) to obtain a sample
+of 886 observations. 
+
+
