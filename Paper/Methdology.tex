@@ -1,1 +1,15 @@
- 
+\section{Methodology}
+\label{sec:methodology}
+%822,27,20
+We are interested in analyzing artifacts from $N=20$ archaeological sites. We denote by $X^i$ the collection of artifacts in the $i$-th site, that is $X^i=\{x^i_1,x^i_2,\dots,x^i_{n_i}\}$, where $n_i$ is the number of artifacts in site $i$ and $x^i_m$ refers to the $m$-th artifact in the $i$-th site.
+The chemical composition data available for each artifact consists of the concentration of $L=27$ different chemicals. Artifact $x^i_m$ then consists of the (normalized) vector containing these chemical concentrations.
+The simplest way to compare the chemical composition of two artifacts is through their square distance
+$$ \| x^i_m - x^j_l \|^2 = \sum_{k=1}^L ( (x^i_m)_k - (x^j_l)_k )^2$$
+where $(x^i_m)_k$ refers to the $k$-th (normalized) chemical concentration of artifact $x^i_m$.
+This in turn is used to construct many similarity measures, for instance
+$$ k(x^i_m,x^j_l) = \exp(-h\|x^i_m - x^j_l \|^2)$$
+where $h>0$ is a fitting parameter. This corresponds to the widely used Gaussian kernel. Other similarity measures $k$ between artifacts based on their chemical composition are possible. The question of which similarity measure between chemical composition of artifacts is more appropriate for statistical inference is an important one, but we do not consider it further.
+The challenge is then to construct a similarity measure between different sites based on the similarities ${k(x^i_m,x^j_l)}$ between their respective artifacts. We propose constructing such similarity function by looking at the average similarity between all pair of artifacts $(x^i_m,x^j_l)$ belonging to sites $X^i$ and $X^j$, respectively, given by
+$$S(X^i,X^j) = \frac{1}{n_i n_j} \sum_{m=1}^{n_i} \sum_{l=1}^{n_j} k(x^i_m,x^j_l).$$
+The justification for this similarity measure between archaeological sites is given by the theory of kernel mean embedding, as described below.
+We now wish to illustrate how well the similarity measure $S$ performs in finding similarities between archaeological sites based on the chemical composition of their respective artifacts. We do this by providing a network plot of the archaeological sites, where two sites $X^i$ and $X^j$ are connected if their similarity $S(X^i,X^j)$ is larger than a prescribed threshold. The results are illustrated in the figures..

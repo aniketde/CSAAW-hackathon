@@ -1,0 +1,27 @@
+\section{Similarity}
+\label{sec:similarity}
+In this section we detail the way in which similarities are computed. We draw inspiration from a well known set of methods in the machine learning community, and acknowledge that the mathematical machinery might not be familiar to the intended audience. Therefore the reader is invited to skip this section on the first read and come back to it when necessary.
+We think of the chemical composition vectors $\{x^i_m\}_{m=1}^{n_i}$ corresponding to the artifacts in the $i$-th site $X^i$ as consisting of samples from some distribution $P_i$.
+\subsection{Reproducing Kernels}
+\label{kernels}
+To build a network we need an appropriate notation of similarity between sites (probability densities). We desire the probability densities to inhabit a well behaved space of functions (a Hilbert Space) where a common notion of similarity exists. We propose to embed each pd into the so called RKHS of a kernel K and use iner product in this space as the similarity measure.
+The similarities we propose capture similarities among probability densities as elements of a function space. To determine these similarities we need first determine the function space the probability densities inhabit. The function space we will use is the so called Reproducing Kernel Hilbert Space (RKHS) associated to a reproducing kernel. We now define these mathematical objects.
+A {\it reproducing kernel} is a symmetric function $k: \sx\times \sx\rightarrow \mathbb{R}$ for which there exists a unique Hilbert space of functions $\sh$ such that $k(\cdot,x)\in \sh$ for all $x\in \sx$ and the reproducing property
+\begin{align}
+f(x) = \left<f,k(\cdot,x)\right>
+\end{align}
+holds for all $f\in\sh$ and all $x\in \sx$
+\subsection{Kernel Mean Embedding}
+\label{kme}
+Let $k$ be a reproducing kernel as in section, the {\it kernel mean embedding} of the probability density $P$ in the RKHS $H$ of $k$ is
+$$\phi_0(P) = \int k(\cdot,x)P(x) dx$$
+Since the true form of $P$ is unknown we use the available data to estimate the KME. Let ${x_l}_{l=1}^n$ be an iid sample from $P$, then the empirical kme of $O$ is
+$$\phi(P)=\frac{1}{n}\sum_{l=1}^n k(\cdot,x_l).$$
+Although $\phi(P)$ depends on the sample we will omit this dependencies to simplify notation.
+With this tool at hand, we define the similarity between site $i$ and site $j$ as the inner product of their corresponding KME's.
+\begin{align*}
+S(X^i,X^j)&=\langle \phi(P_i),\phi(P_j) \rangle_H \\
+&= \frac{1}{n_i n_j} \sum_{l=1}^{n_j} \sum_{m=1}^{n_j} \langle k(\cdot,X_l^i),k(\cdot,x_m^j) \rangle_H \\
+&= \frac{1}{n_i n_j} \sum_{l,m} k(x^i_l,x^j_m)
+\end{align*}
+where the last equality follows from the reproducing property. 

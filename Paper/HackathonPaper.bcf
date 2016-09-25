@@ -2143,11 +2143,11 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">davis1979late</bcf:citekey>
-    <bcf:citekey order="2">davis1979late</bcf:citekey>
-    <bcf:citekey order="3">rutter1975ceramic</bcf:citekey>
-    <bcf:citekey order="4">demand2011mediterranean</bcf:citekey>
-    <bcf:citekey order="5">mommsen2002complete</bcf:citekey>
-    <bcf:citekey order="6">grave2014ceramics</bcf:citekey>
+    <bcf:citekey order="2">rutter1975ceramic</bcf:citekey>
+    <bcf:citekey order="3">demand2011mediterranean</bcf:citekey>
+    <bcf:citekey order="4">mommsen2002complete</bcf:citekey>
+    <bcf:citekey order="5">grave2014ceramics</bcf:citekey>
+    <bcf:citekey order="6">davis1979late</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
