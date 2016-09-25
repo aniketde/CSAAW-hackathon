@@ -1,1 +1,17 @@
  
+\section{problem formulation}
+
+%20 sites
+%27 elements
+%822 artifacts 
+Our goal in this project is to understand relations of evolving similarity between archeological sites over time. In this section, we define this problem more exactly. 
+
+First, a brief intuitive gloss on our technique. In our model, similarity reflects a relationship between our estimates of the underlying functions which are `generating' the artifacts. By modeling it this way, we reduce the site information to an underlying probability function. Then, these functions can be compared, and a relationship computed pairwise between all the sites. This allows us to construct a network.  Finally, we can look at the network among sites over the entire period, or segmented by time. In the latter analysis, we separate the artifacts into eras, and look at the similarities in each era separately.  
+
+What is this analysis meant to accomplish? Archaeologists have looked at Greek pottery artifacts for centuries in an attempt to understand trade, and each individual site we consider has been described in elaborate detail (for example, see \cite{davis1979late}).  Our project is meant to be \textit{focused and precise} in its use of data, while aiming at a \textit{general and holistic target} - simplicity of element abundance profile.  This might seem like an odd mismatch, but it also has the potential to either turn up novel connections or confirm old results from a fairly independent source. 
+
+So the problem we are attempting to solve is to take a well-defined but limited set of features (element abundance) and generate a similarity network using only those features. Then, we will compare the relations in our network to theories and findings from archaeologists and historians about the trade and migration patterns that might effect the similarity of pottery artifacts. In the most general case, we consider the progression of trade power (among our sites, a progression from Aegina in the early Bronze Age, to Festos in the Minoan period, then Mycenae in the late Helladic, and finally Berbati). These theories of trade relations also imply similarity relations - just of a more qualitative kind, and based a far wider body of evidence. Finding significant points of agreement between our model and these theories would be an indication that the similarity relation we've calculated based on these simple chemical properties is latching on to something deeper. This could be because of similarities in raw materials, or firing techniques, but most likely a combination of the two.  Alternately, finding unexpected similarity relations or relations that run contrary to extant archeological theories might be a call for explanation: could there be a genuine trade connection between these regions? Or if not, could the similarity in composition of the shards be reflection some other kind of connection?
+
+In short, we view the application of machine learning techniques to archeology as aiding in a discovery process. The discovery process in question in this paper is comparing quantitative similarity of chemical composition of pottery to qualitative similarity of regions based on extant theories of influence, migration and trade. 
+
+
