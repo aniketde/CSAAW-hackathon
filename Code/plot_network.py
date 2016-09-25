@@ -38,7 +38,7 @@ def plot_network(Sim,plot_type='geo',thres=10**(-5),timeline="All_filtered",labe
                 urcrnrlon=35,
                 urcrnrlat=40,
                 lat_ts=0,
-                resolution='i',
+                resolution='f',
                 suppress_ticks=True)
             
         elif zoomparameter ==2:
@@ -96,7 +96,9 @@ def plot_network(Sim,plot_type='geo',thres=10**(-5),timeline="All_filtered",labe
         #m.drawcountries()
         #m.drawstates()
         #m.bluemarble()
-        m.drawlsmask(land_color='coral',ocean_color='aqua',lakes=True)
+        m.shadedrelief()
+        #m.etopo()
+        #m.drawlsmask(land_color='coral',ocean_color='aqua',lakes=True)
 
     elif plot_type=='plain':
 
