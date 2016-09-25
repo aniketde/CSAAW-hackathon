@@ -15,4 +15,4 @@ Sim, datasetTotal = getSimilarityMatrix(NormalizationFlag,SimilarityFlag)
 
 SimEra = getSimilarityMatrixEra(NormalizationFlag,SimilarityFlag)
 
-plot_network(SimEra,plot_type='geo')
+plot_network(Sim,plot_type='geo')

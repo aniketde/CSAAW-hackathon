@@ -9,7 +9,7 @@ from mpl_toolkits.basemap import Basemap
 import csv
 
 def plot_network(Sim,plot_type='geo'):
-    thres=1e-3
+    thres=10**(-4.5)
     matrix_type='sim'
     
     
@@ -28,40 +28,42 @@ def plot_network(Sim,plot_type='geo'):
     g=nx.from_numpy_matrix(S_binary)
     #Sim
     plt.figure()
-    
+    zoomparameter = 1
     if plot_type=='geo':
-        m = Basemap(
-            projection='merc',
-            llcrnrlon=18,
-            llcrnrlat=33,
-            urcrnrlon=35,
-            urcrnrlat=40,
-            lat_ts=0,
-            resolution='i',
-            suppress_ticks=True)
+        if zoomparameter == 1:
+            m = Basemap(
+                projection='merc',
+                llcrnrlon=18,
+                llcrnrlat=33,
+                urcrnrlon=35,
+                urcrnrlat=40,
+                lat_ts=0,
+                resolution='i',
+                suppress_ticks=True)
             
-            
-            
-        #        
-        m = Basemap(
-            projection='merc',
-            llcrnrlon=21,
-            llcrnrlat=34.5,
-            urcrnrlon=24.5,
-            urcrnrlat=38.7,
-            lat_ts=0,
-            resolution='h',
-            suppress_ticks=True)
-        #        
-        #m = Basemap(
-        #    projection='merc',
-        #    llcrnrlon=22,
-        #    llcrnrlat=37.25,
-        #    urcrnrlon=23.5,
-        #    urcrnrlat=38.25,
-        #    lat_ts=0,
-        #    resolution='i',
-        #    suppress_ticks=True)
+        elif zoomparameter ==2:
+                
+            #        
+            m = Basemap(
+                projection='merc',
+                llcrnrlon=21,
+                llcrnrlat=34.5,
+                urcrnrlon=24.5,
+                urcrnrlat=38.7,
+                lat_ts=0,
+                resolution='i',
+                suppress_ticks=True)
+        elif zoomparameter == 3:
+            #        
+            m = Basemap(
+                projection='merc',
+                llcrnrlon=22,
+                llcrnrlat=37.25,
+                urcrnrlon=23.5,
+                urcrnrlat=38.25,
+                lat_ts=0,
+                resolution='i',
+                suppress_ticks=True)
 
     
         with open('coordinates.csv', mode='r') as infile:
