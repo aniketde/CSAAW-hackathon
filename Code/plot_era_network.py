@@ -5,7 +5,7 @@ import numpy
 import matplotlib.pyplot as plt
 import networkx as nx
 from copy import copy
-from mpl_toolkits.basemap import Basemap
+#from mpl_toolkits.basemap import Basemap
 import csv
 
 def plot_era_network(Sim,plot_type='plain',thres=10**(-5),timeline="All_filtered",label_type='names'):

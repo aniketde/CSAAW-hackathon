@@ -29,6 +29,7 @@ def getSimilarityMatrix(NormalizationFlag,SimilarityFlag,filepath):
         dataset_list.append(files)
     
     N = len(dataset_list)
+    print N
     dataset = genfromtxt(dataset_list[1], delimiter=',')
     datasetTotal = np.zeros([1,dataset.shape[1]-1])
     for site in range(0,N):

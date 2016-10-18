@@ -2,7 +2,7 @@ from SimilaritMatrixCreation import *
 from plot_network import *
 from plot_era_network import *
 import numpy as np
-from mpl_toolkits.basemap import Basemap
+#from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 
 def network_for_era(timeline):
