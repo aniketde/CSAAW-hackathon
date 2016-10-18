@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.12)  25 SEP 2016 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.9)  27 SEP 2016 20:47
 entering extended mode
-**./HackathonPaper.tex
-(HackathonPaper.tex
-LaTeX2e <2016/03/31> patch level 1
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**HackathonPaper.tex
+(./HackathonPaper.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,33 +23,33 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin5.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin5.def
 File: latin5.def 2015/03/17 v1.2c Input encoding file
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/03/10 v2.15b AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
 LaTeX Info: Redefining \frac on input line 199.
@@ -62,8 +64,8 @@ LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -84,27 +86,28 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\cleveref\cleveref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count99
@@ -119,139 +122,126 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen118
 \Gm@layoutvoffset=\dimen119
 \Gm@dimlist=\toks22
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/06/02 v1.0s Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
-Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/03/03 v3.3 programmable bibliographies (PK/JW/AB)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.sty
+Package: biblatex_ 2016/03/03 v3.3 programmable bibliographies (biber) (PK/JW/A
+B)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count103
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count104
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
-\@xs@message=\write3
-\integerpart=\count105
-\decimalpart=\count106
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count107
-\c@listtotal=\count108
-\c@listcount=\count109
-\c@liststart=\count110
-\c@liststop=\count111
-\c@citecount=\count112
-\c@citetotal=\count113
-\c@multicitecount=\count114
-\c@multicitetotal=\count115
-\c@instcount=\count116
-\c@maxnames=\count117
-\c@minnames=\count118
-\c@maxitems=\count119
-\c@minitems=\count120
-\c@citecounter=\count121
-\c@savedcitecounter=\count122
-\c@uniquelist=\count123
-\c@uniquename=\count124
-\c@refsection=\count125
-\c@refsegment=\count126
-\c@maxextratitle=\count127
-\c@maxextratitleyear=\count128
-\c@maxextrayear=\count129
-\c@maxextraalpha=\count130
-\c@abbrvpenalty=\count131
-\c@highnamepenalty=\count132
-\c@lownamepenalty=\count133
-\c@maxparens=\count134
-\c@parenlevel=\count135
-\blx@tempcnta=\count136
-\blx@tempcntb=\count137
-\blx@tempcntc=\count138
-\blx@maxsection=\count139
-\blx@maxsegment@0=\count140
-\blx@notetype=\count141
-\blx@parenlevel@text=\count142
-\blx@parenlevel@foot=\count143
-\blx@sectionciteorder@0=\count144
+\c@tabx@nest=\count105
+\c@listtotal=\count106
+\c@listcount=\count107
+\c@liststart=\count108
+\c@liststop=\count109
+\c@citecount=\count110
+\c@citetotal=\count111
+\c@multicitecount=\count112
+\c@multicitetotal=\count113
+\c@instcount=\count114
+\c@maxnames=\count115
+\c@minnames=\count116
+\c@maxitems=\count117
+\c@minitems=\count118
+\c@citecounter=\count119
+\c@savedcitecounter=\count120
+\c@uniquelist=\count121
+\c@uniquename=\count122
+\c@refsection=\count123
+\c@refsegment=\count124
+\c@maxextratitle=\count125
+\c@maxextratitleyear=\count126
+\c@maxextrayear=\count127
+\c@maxextraalpha=\count128
+\c@abbrvpenalty=\count129
+\c@highnamepenalty=\count130
+\c@lownamepenalty=\count131
+\c@maxparens=\count132
+\c@parenlevel=\count133
+\blx@tempcnta=\count134
+\blx@tempcntb=\count135
+\blx@tempcntc=\count136
+\blx@maxsection=\count137
+\blx@maxsegment@0=\count138
+\blx@notetype=\count139
+\blx@parenlevel@text=\count140
+\blx@parenlevel@foot=\count141
+\blx@sectionciteorder@0=\count142
 \labelnumberwidth=\skip46
 \labelalphawidth=\skip47
 \biblabelsep=\skip48
@@ -261,81 +251,82 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibparsep=\skip52
 \bibhang=\skip53
 \blx@bcfin=\read1
-\blx@bcfout=\write4
-\c@mincomprange=\count145
-\c@maxcomprange=\count146
-\c@mincompwidth=\count147
+\blx@bcfout=\write3
+\c@mincomprange=\count143
+\c@maxcomprange=\count144
+\c@mincompwidth=\count145
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-dm.def)
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count148
-\c@savedafterword=\count149
-\c@annotator=\count150
-\c@savedannotator=\count151
-\c@author=\count152
-\c@savedauthor=\count153
-\c@bookauthor=\count154
-\c@savedbookauthor=\count155
-\c@commentator=\count156
-\c@savedcommentator=\count157
-\c@editor=\count158
-\c@savededitor=\count159
-\c@editora=\count160
-\c@savededitora=\count161
-\c@editorb=\count162
-\c@savededitorb=\count163
-\c@editorc=\count164
-\c@savededitorc=\count165
-\c@foreword=\count166
-\c@savedforeword=\count167
-\c@holder=\count168
-\c@savedholder=\count169
-\c@introduction=\count170
-\c@savedintroduction=\count171
-\c@namea=\count172
-\c@savednamea=\count173
-\c@nameb=\count174
-\c@savednameb=\count175
-\c@namec=\count176
-\c@savednamec=\count177
-\c@translator=\count178
-\c@savedtranslator=\count179
-\c@shortauthor=\count180
-\c@savedshortauthor=\count181
-\c@shorteditor=\count182
-\c@savedshorteditor=\count183
-\c@labelname=\count184
-\c@savedlabelname=\count185
-\c@institution=\count186
-\c@savedinstitution=\count187
-\c@lista=\count188
-\c@savedlista=\count189
-\c@listb=\count190
-\c@savedlistb=\count191
-\c@listc=\count192
-\c@savedlistc=\count193
-\c@listd=\count194
-\c@savedlistd=\count195
-\c@liste=\count196
-\c@savedliste=\count197
-\c@listf=\count198
-\c@savedlistf=\count199
-\c@location=\count266
-\c@savedlocation=\count267
-\c@organization=\count268
-\c@savedorganization=\count269
-\c@origlocation=\count270
-\c@savedoriglocation=\count271
-\c@origpublisher=\count272
-\c@savedorigpublisher=\count273
-\c@publisher=\count274
-\c@savedpublisher=\count275
-\c@language=\count276
-\c@savedlanguage=\count277
-\c@pageref=\count278
-\c@savedpageref=\count279
+\c@afterword=\count146
+\c@savedafterword=\count147
+\c@annotator=\count148
+\c@savedannotator=\count149
+\c@author=\count150
+\c@savedauthor=\count151
+\c@bookauthor=\count152
+\c@savedbookauthor=\count153
+\c@commentator=\count154
+\c@savedcommentator=\count155
+\c@editor=\count156
+\c@savededitor=\count157
+\c@editora=\count158
+\c@savededitora=\count159
+\c@editorb=\count160
+\c@savededitorb=\count161
+\c@editorc=\count162
+\c@savededitorc=\count163
+\c@foreword=\count164
+\c@savedforeword=\count165
+\c@holder=\count166
+\c@savedholder=\count167
+\c@introduction=\count168
+\c@savedintroduction=\count169
+\c@namea=\count170
+\c@savednamea=\count171
+\c@nameb=\count172
+\c@savednameb=\count173
+\c@namec=\count174
+\c@savednamec=\count175
+\c@translator=\count176
+\c@savedtranslator=\count177
+\c@shortauthor=\count178
+\c@savedshortauthor=\count179
+\c@shorteditor=\count180
+\c@savedshorteditor=\count181
+\c@labelname=\count182
+\c@savedlabelname=\count183
+\c@institution=\count184
+\c@savedinstitution=\count185
+\c@lista=\count186
+\c@savedlista=\count187
+\c@listb=\count188
+\c@savedlistb=\count189
+\c@listc=\count190
+\c@savedlistc=\count191
+\c@listd=\count192
+\c@savedlistd=\count193
+\c@liste=\count194
+\c@savedliste=\count195
+\c@listf=\count196
+\c@savedlistf=\count197
+\c@location=\count198
+\c@savedlocation=\count199
+\c@organization=\count266
+\c@savedorganization=\count267
+\c@origlocation=\count268
+\c@savedoriglocation=\count269
+\c@origpublisher=\count270
+\c@savedorigpublisher=\count271
+\c@publisher=\count272
+\c@savedpublisher=\count273
+\c@language=\count274
+\c@savedlanguage=\count275
+\c@pageref=\count276
+\c@savedpageref=\count277
 \shorthandwidth=\skip54
 \shortjournalwidth=\skip55
 \shortserieswidth=\skip56
@@ -345,42 +336,40 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
-File: blx-compat.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/03/03 v3.3 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
-File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count280
-\c@textcitetotal=\count281
-\c@textcitemaxnames=\count282
-\c@biburlnumpenalty=\count283
-\c@biburlucpenalty=\count284
-\c@biburllcpenalty=\count285
-\c@smartand=\count286
+Package biblatex Info: ... file 'biblatex_.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.def
+File: biblatex_.def 
+\c@textcitecount=\count278
+\c@textcitetotal=\count279
+\c@textcitemaxnames=\count280
+\c@biburlnumpenalty=\count281
+\c@biburlucpenalty=\count282
+\c@biburllcpenalty=\count283
+\c@smartand=\count284
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bb
-x
-File: numeric.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.b
-bx
-File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count287
-\c@bbx:relatedtotal=\count288
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count285
+\c@bbx:relatedtotal=\count286
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cb
-x
-File: numeric.cbx 2016/09/17 v3.6 biblatex citation style (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/03/03 v3.3 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -396,24 +385,111 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-))
+)))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lb
-x
-File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count289
-\@quotereset=\count290
- (HackathonPaper.aux
+\@quotelevel=\count287
+\@quotereset=\count288
 
-LaTeX Warning: Label `fig:sample' multiply defined.
+(./HackathonPaper.aux
+! Undefined control sequence.
+l.3 \abx@aux@refcontext
+                       {nty/global/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Label `fig:sample@cref' multiply defined.
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \abx@aux@refcontext{n
+                         ty/global/}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.5 \abx@aux@segm
+                 {0}{0}{grave2014ceramics}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.7 \abx@aux@segm
+                 {0}{0}{jung2015west}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \abx@aux@segm
+                  {0}{0}{davis1979late}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 \abx@aux@segm
+                  {0}{0}{rutter1975ceramic}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 \abx@aux@segm
+                  {0}{0}{demand2011mediterranean}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 \abx@aux@segm
+                  {0}{0}{mommsen2002complete}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.25 \abx@aux@segm
+                  {0}{0}{grave2014ceramics}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 \abx@aux@segm
+                  {0}{0}{davis1979late}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 )
 \openout1 = `HackathonPaper.aux'.
@@ -465,176 +541,160 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\llinfeng\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+Overfull \hbox (2.36227pt too wide) in paragraph at lines 3--13
+[]\OT1/cmr/m/n/10 nty/global/  00grave2014ceramics  00jung2015west           00
+davis1979late  00rut-ter1975ceramic
+ []
+
+
+Overfull \hbox (22.0568pt too wide) in paragraph at lines 3--13
+\OT1/cmr/m/n/10 00de-mand2011mediterranean  00momm-sen2002complete 00grave2014c
+eramics               00davis1979late
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
+\scratchcounter=\count289
 \scratchdimen=\dimen122
 \scratchbox=\box28
-\nofMPsegments=\count292
-\nofMParguments=\count293
+\nofMPsegments=\count290
+\nofMParguments=\count291
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count294
+\MPscratchCnt=\count292
 \MPscratchDim=\dimen123
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks24
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package biblatex Info: Input encoding 'latin5' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'latin5'.
-\openout4 = `HackathonPaper.bcf'.
+\openout3 = `HackathonPaper.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'HackathonPaper.bbl' found.
 
-(HackathonPaper.bbl)
+(./HackathonPaper.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 20.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(intro_from_Raymundo.tex)
+(./intro_from_Raymundo.tex)
 
-LaTeX Warning: Citation 'grave2014ceramics' on page 1 undefined on input line 4
+LaTeX Warning: Citation 'grave2014ceramics' on page 2 undefined on input line 4
 0.
 
 
-LaTeX Warning: Citation 'jung2015west' on page 1 undefined on input line 40.
+LaTeX Warning: Citation 'jung2015west' on page 2 undefined on input line 40.
 
-[1
-
-{C:/Users/llinfeng/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2]
 Overfull \hbox (42.54016pt too wide) in paragraph at lines 64--65
-[][][] 
+[][] 
  []
 
 
-LaTeX Warning: Citation 'davis1979late' on page 2 undefined on input line 71.
+LaTeX Warning: Citation 'davis1979late' on page 3 undefined on input line 71.
 
 
-LaTeX Warning: Citation 'rutter1975ceramic' on page 2 undefined on input line 7
+LaTeX Warning: Citation 'rutter1975ceramic' on page 3 undefined on input line 7
 1.
 
-<pottery2.png, id=10, 549.55313pt x 455.45157pt>
+<pottery2.png, id=14, 549.55313pt x 455.45157pt>
 File: pottery2.png Graphic file (type png)
  <use pottery2.png>
 Package pdftex.def Info: pottery2.png used on input line 75.
 (pdftex.def)             Requested size: 416.83289pt x 345.46573pt.
 
 
-LaTeX Warning: Citation 'demand2011mediterranean' on page 2 undefined on input 
+LaTeX Warning: Citation 'demand2011mediterranean' on page 3 undefined on input 
 line 76.
 
 
-LaTeX Warning: Citation 'mommsen2002complete' on page 2 undefined on input line
+LaTeX Warning: Citation 'mommsen2002complete' on page 3 undefined on input line
  80.
 
 
-LaTeX Warning: Citation 'grave2014ceramics' on page 2 undefined on input line 8
+LaTeX Warning: Citation 'grave2014ceramics' on page 3 undefined on input line 8
 0.
 
-<korakou.jpg, id=11, 602.25pt x 402.50375pt>
+<korakou.jpg, id=15, 602.25pt x 402.50375pt>
 File: korakou.jpg Graphic file (type jpg)
  <use korakou.jpg>
 Package pdftex.def Info: korakou.jpg used on input line 84.
 (pdftex.def)             Requested size: 416.83289pt x 278.59386pt.
 
-(motivation_dataset.tex [2] [3 <./pottery2.png>]
+(./motivation_dataset.tex [3] [4 <./pottery2.png>]
 
-LaTeX Warning: Reference `fig:example_of_shreds_in_the_database' on page 4 unde
+LaTeX Warning: Reference `fig:example_of_shreds_in_the_database' on page 5 unde
 fined on input line 26.
 
-) (Problem_Formulation.tex [4 <./korakou.jpg>]
+) (./Problem_Formulation.tex [5 <./korakou.jpg>]
 
-LaTeX Warning: Citation 'davis1979late' on page 5 undefined on input line 11.
+LaTeX Warning: Citation 'davis1979late' on page 6 undefined on input line 11.
 
-) (Methdology.tex [5]) (similarity.tex [6]) (Results.tex
+) (./Methdology.tex [6])
 
-LaTeX Warning: Reference `fig:Overall_network' on page 7 undefined on input lin
-e 2.
+! LaTeX Error: File `similarity.tex' not found.
 
-<Network_evolution.png, id=40, 694.595pt x 891.33pt>
-File: Network_evolution.png Graphic file (type png)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-<use Network_evolution.png>
-Package pdftex.def Info: Network_evolution.png used on input line 7.
-(pdftex.def)             Requested size: 416.83289pt x 534.91093pt.
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.103 \input{similarity}
+                        ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-<Overall_Network.png, id=41, 357.83687pt x 301.125pt>
-File: Overall_Network.png Graphic file (type png)
-
-<use Overall_Network.png>
-Package pdftex.def Info: Overall_Network.png used on input line 13.
-(pdftex.def)             Requested size: 416.83289pt x 350.79395pt.
-) (conclusion.tex)
-
-LaTeX Warning: Empty bibliography on input line 122.
-
-[7] [8 <./Network_evolution.png>] [9 <./Overall_Network.png>]
-(HackathonPaper.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                HackathonPaper
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'HackathonPaper.run.xml'.
-\openout1 = `HackathonPaper.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 10834 strings out of 493335
- 189157 string characters out of 3139251
- 625561 words of memory out of 3000000
- 14224 multiletter control sequences out of 15000+200000
- 12678 words of font info for 49 fonts, out of 3000000 for 9000
+ 9943 strings out of 493029
+ 171286 string characters out of 6136235
+ 578852 words of memory out of 5000000
+ 13358 multiletter control sequences out of 15000+600000
+ 12678 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,9n,41p,1467b,1222s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on HackathonPaper.pdf (9 pages, 479998 bytes).
-PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 44i,9n,32p,1464b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
