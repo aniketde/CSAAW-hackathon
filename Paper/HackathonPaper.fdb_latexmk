@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber HackathonPaper"] 1478030862 "HackathonPaper.bcf" "HackathonPaper.bbl" "HackathonPaper" 1478446636
-  "Hackathon.bib" 1478030823 2661 be571eb9d77519ad37f11a6b0ba5657d ""
-  "HackathonPaper.bcf" 1478446636 102371 c975be29e11b6aa3636b07c35efa600e ""
+["biber HackathonPaper"] 1478448587 "HackathonPaper.bcf" "HackathonPaper.bbl" "HackathonPaper" 1478448591
+  "Hackathon.bib" 1478447607 3150 1e297031c19b4276d8102059b6a008e8 ""
+  "HackathonPaper.bcf" 1478448590 102564 54518ac69240a58ae3aa262bcd12a258 ""
   (generated)
   "HackathonPaper.bbl"
   "HackathonPaper.blg"
-["pdflatex"] 1478446634 "HackathonPaper.tex" "HackathonPaper.pdf" "HackathonPaper" 1478446636
+["pdflatex"] 1478448588 "HackathonPaper.tex" "HackathonPaper.pdf" "HackathonPaper" 1478448591
   "/home/S/.texlive2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1476989556 702440 d2c608cf723c12c8a0ca834247c8adbf ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1435972840 1775178 15cbcceaa597515a728ba27ee04a8a1f ""
@@ -110,16 +110,16 @@
   "/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1455661086 31975 fb53f60aea2848f5f0183fb5127ea776 ""
-  "HackathonPaper.aux" 1478446636 4477 e06db74b0c880a2c1930a830bd9ec72a ""
-  "HackathonPaper.bbl" 1478030863 7466 aa44620622805a132ddd972479c70c8e "biber HackathonPaper"
-  "HackathonPaper.run.xml" 1478446636 2374 5668a6902d6faa0aaad6e2db0f6ff66f ""
+  "HackathonPaper.aux" 1478448590 4552 d9b43021b2f48181b8c864089eb8a04c ""
+  "HackathonPaper.bbl" 1478448588 9080 8e298f7a2e796f27b831e83e64937c03 "biber HackathonPaper"
+  "HackathonPaper.run.xml" 1478448590 2374 5668a6902d6faa0aaad6e2db0f6ff66f ""
   "HackathonPaper.tex" 1478443112 6354 1bcdd7dc63a1b54c1fd6629dcbcd3238 ""
   "Methdology.tex" 1478020957 2344 30baea3adb40f343f1bdbf300d29a76b ""
   "Network_evolution.png" 1478020957 124812 0aa62f7257499a87d1350f53a7ebd6a2 ""
   "Overall_Network.png" 1478020957 59396 ed729fbfedd28b07bf0135ba27e72756 ""
   "Overall_network_direct.png" 1478020957 49514 ee38792b3317adcf8477580c6ca33cd8 ""
   "Problem_Formulation.tex" 1478020957 3225 8e4f3e7f16d3bfcedea59660ceecad75 ""
-  "Results.tex" 1478446629 4163 51b46e42c2d2f67951e077bad32de696 ""
+  "Results.tex" 1478448581 5334 bb5cb3781fd224a2358b4fddef587f05 ""
   "Similarity.tex" 1478020957 2691 f8469537dabcf6153957479f34a3990f ""
   "conclusion.tex" 1478020957 2 d784fa8b6d98d27699781bd9a7cf19f0 ""
   "intro_from_Raymundo.tex" 1478020957 1623 b4981c9a497af6a8b58c90e8a6d7264a ""
@@ -127,8 +127,8 @@
   "motivation_dataset.tex" 1478020957 1872 4a85d4981bdc367cb5cbe2518e24fef7 ""
   "pottery2.png" 1478020957 101422 ec354cde8e659b49e7aaafa47f32312e ""
   (generated)
-  "HackathonPaper.bcf"
   "HackathonPaper.log"
-  "HackathonPaper.aux"
+  "HackathonPaper.bcf"
   "HackathonPaper.pdf"
   "HackathonPaper.run.xml"
+  "HackathonPaper.aux"

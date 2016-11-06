@@ -2244,7 +2244,10 @@
     <bcf:citekey order="7">mommsen2002complete</bcf:citekey>
     <bcf:citekey order="8">grave2014ceramics</bcf:citekey>
     <bcf:citekey order="9">davis1979late</bcf:citekey>
-    <bcf:citekey order="10">demand2011mediterranean</bcf:citekey>
+    <bcf:citekey order="10">hruby2010mycenaean</bcf:citekey>
+    <bcf:citekey order="11">shelmerdine1981nichoria</bcf:citekey>
+    <bcf:citekey order="12">demand2011mediterranean</bcf:citekey>
+    <bcf:citekey order="13">demand2011mediterranean</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
   <bcf:sorting>

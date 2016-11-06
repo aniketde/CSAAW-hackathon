@@ -84,6 +84,25 @@
       \field{pages}{1180\bibrangedash 1200}
       \range{pages}{21}
     \endentry
+    \entry{hruby2010mycenaean}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f83cc3d5a2e7a178b1c850b5a0358753}{Hruby}{H\bibinitperiod}{Julie}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{f83cc3d5a2e7a178b1c850b5a0358753}
+      \strng{fullhash}{f83cc3d5a2e7a178b1c850b5a0358753}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Archaeology}
+      \field{title}{Mycenaean pottery from Pylos: an indigenous typology}
+      \field{year}{2010}
+      \field{pages}{195\bibrangedash 216}
+      \range{pages}{22}
+    \endentry
     \entry{jung2015west}{article}{}
       \name{author}{3}{}{%
         {{hash=fa22a8fc0eb71905a746c95e737a9d43}{Jung}{J\bibinitperiod}{Reinhard}{R\bibinitperiod}{}{}{}{}}%
@@ -147,6 +166,27 @@
       \field{year}{1975}
       \field{pages}{17\bibrangedash 32}
       \range{pages}{16}
+    \endentry
+    \entry{shelmerdine1981nichoria}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e0118bf3b3474de5c1a39a070f267437}{Shelmerdine}{S\bibinitperiod}{Cynthia\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{e0118bf3b3474de5c1a39a070f267437}
+      \strng{fullhash}{e0118bf3b3474de5c1a39a070f267437}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Archaeology}
+      \field{number}{3}
+      \field{title}{Nichoria in context: a major town in the Pylos kingdom}
+      \field{volume}{85}
+      \field{year}{1981}
+      \field{pages}{319\bibrangedash 325}
+      \range{pages}{7}
     \endentry
     \entry{wiener2003absolute}{article}{}
       \name{author}{1}{}{%
