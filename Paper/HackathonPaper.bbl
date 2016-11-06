@@ -1,0 +1,174 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{davis1979late}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e194d195555446353026de04525656ec}{Davis}{D\bibinitperiod}{Jack\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{e194d195555446353026de04525656ec}
+      \strng{fullhash}{e194d195555446353026de04525656ec}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Hesperia: The Journal of the American School of Classical Studies at Athens}
+      \field{number}{3}
+      \field{title}{Late Helladic I Pottery from Korakou}
+      \field{volume}{48}
+      \field{year}{1979}
+      \field{pages}{234\bibrangedash 263}
+      \range{pages}{30}
+    \endentry
+    \entry{demand2011mediterranean}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ae014a8758342f5c0b85614b64ee52ce}{Demand}{D\bibinitperiod}{Nancy\bibnamedelima H}{N\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons}%
+      }
+      \strng{namehash}{ae014a8758342f5c0b85614b64ee52ce}
+      \strng{fullhash}{ae014a8758342f5c0b85614b64ee52ce}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Mediterranean context of early Greek history}
+      \field{year}{2011}
+    \endentry
+    \entry{grave2014ceramics}{article}{}
+      \name{author}{7}{}{%
+        {{hash=e7ccf929f9de8c70a8b3854680725a14}{Grave}{G\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f3c9881c2576b980f0e0db2eca0d84c8}{Kealhofer}{K\bibinitperiod}{Lisa}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=73fef3dc82a46c72db772c3685d11d9d}{Marsh}{M\bibinitperiod}{Ben}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=df3109f0f84e10f9130565790c199aae}{Schoop}{S\bibinitperiod}{Ulf-Dietrich}{U\bibinithyphendelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=dc3ec80ad402f441895e44dc3bdc4922}{Seeher}{S\bibinitperiod}{Jurgen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d39c3fad5bf8e0c3e9d1d254039c6ee1}{Bennett}{B\bibinitperiod}{John\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=3010ad8fe561c38883c4113c8cdea7aa}{Stopic}{S\bibinitperiod}{Attila}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Univ Press}%
+      }
+      \strng{namehash}{036647ce20691891d4ca1b9cd513785d}
+      \strng{fullhash}{bce9074571f38199b69ea9f13dade5e9}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Antiquity}
+      \field{number}{342}
+      \field{title}{Ceramics, trade, provenience and geology: Cyprus in the Late Bronze Age}
+      \field{volume}{88}
+      \field{year}{2014}
+      \field{pages}{1180\bibrangedash 1200}
+      \range{pages}{21}
+    \endentry
+    \entry{jung2015west}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa22a8fc0eb71905a746c95e737a9d43}{Jung}{J\bibinitperiod}{Reinhard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=8a4456c9ac0577fc63835415c3b4a771}{Mommsen}{M\bibinitperiod}{Hans}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=5a307c8cd669a600d4f548f6e8f419bf}{Pacciarelli}{P\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{abfc8806777d878c2250c4a546ea12bf}
+      \strng{fullhash}{abfc8806777d878c2250c4a546ea12bf}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Science: Reports}
+      \field{title}{From west to west: Determining production regions of Mycenaean pottery of Punta di Zambrone (Calabria, Italy)}
+      \field{volume}{3}
+      \field{year}{2015}
+      \field{pages}{455\bibrangedash 463}
+      \range{pages}{9}
+    \endentry
+    \entry{mommsen2002complete}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bbaeae18f4d665618e8d56b8fa867562}{Mommsen}{M\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=1ad6c80c64fb35fecbabafeda60548b9}{Beier}{B\bibinitperiod}{Th}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=858ddd1ecee37b0768443a459979a4b9}{Hein}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1623cb42213e68a473ba10ace30cf53e}
+      \strng{fullhash}{1623cb42213e68a473ba10ace30cf53e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Archaeological Science}
+      \field{number}{6}
+      \field{title}{A complete chemical grouping of the Berkeley neutron activation analysis data on Mycenaean pottery}
+      \field{volume}{29}
+      \field{year}{2002}
+      \field{pages}{613\bibrangedash 637}
+      \range{pages}{25}
+    \endentry
+    \entry{rutter1975ceramic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=53fd05e5aaebcd142db9ebca42ca2c95}{Rutter}{R\bibinitperiod}{Jeremy\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{53fd05e5aaebcd142db9ebca42ca2c95}
+      \strng{fullhash}{53fd05e5aaebcd142db9ebca42ca2c95}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Archaeology}
+      \field{title}{Ceramic evidence for northern intruders in Southern Greece at the Beginning of the Late Helladic IIIC Period}
+      \field{year}{1975}
+      \field{pages}{17\bibrangedash 32}
+      \range{pages}{16}
+    \endentry
+    \entry{wiener2003absolute}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6cf515910870a86460ae1c4e74cba3a8}{Wiener}{W\bibinitperiod}{Malcolm\bibnamedelima H}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Univ Press}%
+      }
+      \strng{namehash}{6cf515910870a86460ae1c4e74cba3a8}
+      \strng{fullhash}{6cf515910870a86460ae1c4e74cba3a8}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annual of the British School at Athens}
+      \field{title}{The absolute chronology of Late Helladic III A2 revisited}
+      \field{volume}{98}
+      \field{year}{2003}
+      \field{pages}{239\bibrangedash 250}
+      \range{pages}{12}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,5 +1,15 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: HackathonPaper.aux
-I found no \citation commands---while reading file HackathonPaper.aux
-I found no \bibdata command---while reading file HackathonPaper.aux
-I found no \bibstyle command---while reading file HackathonPaper.aux
-(There were 3 error messages)
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'HackathonPaper.blg'
+[67] biber:273> INFO - === Tue Nov  1, 2016, 16:07:43
+[67] Biber.pm:333> INFO - Reading 'HackathonPaper.bcf'
+[227] Biber.pm:645> INFO - Found 7 citekeys in bib section 0
+[252] Biber.pm:2977> INFO - Processing section 0
+[275] Biber.pm:3115> INFO - Looking for bibtex format file 'Hackathon.bib' for section 0
+[277] bibtex.pm:1019> INFO - Decoding LaTeX character macros into UTF-8
+[277] bibtex.pm:893> INFO - Found BibTeX data source 'Hackathon.bib'
+[437] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[437] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[438] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[438] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[459] bbl.pm:505> INFO - Writing 'HackathonPaper.bbl' with encoding 'latin5'
+[461] bbl.pm:596> INFO - Output to HackathonPaper.bbl

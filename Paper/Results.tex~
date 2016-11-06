@@ -1,5 +1,3 @@
-
-We chose the three later periods based on the standard chronology for bronze age Greece displaying in \cref{timeline}: period 2 (1399-1300) is the Late Helladic III-A, period 3 (1299-1200) is the Late Helladic III-C, and period 4 (1199-1050) is the Late Helladic III-C. The first period includes the earliest artifacts in the dataset; we allowed a much larger period because there were fewer sites and artifacts from this era. 
   
 In \cref{evolution}, similarity results are displayed for each of four eras, whereas \cref{overall} similarity over all of the artifacts is displayed. For the overall results, the standard historical narrative would predict Mycenae to be fairly central; a vast majority of the artifacts are from the Late Helladic III period, in which Mycenae is the dominant power in the Aegean \cite{demand2011mediterranean}. Our results replicate this: Mycenae is the most connected node in the graph. 
 
