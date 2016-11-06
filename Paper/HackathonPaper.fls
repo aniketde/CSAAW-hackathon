@@ -177,7 +177,6 @@ INPUT Similarity.tex
 INPUT Similarity.tex
 INPUT Results.tex
 INPUT Results.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Network_evolution.png
 INPUT ./Network_evolution.png
 INPUT ./Network_evolution.png
@@ -192,7 +191,6 @@ INPUT conclusion.tex
 INPUT HackathonPaper.aux
 INPUT HackathonPaper.run.xml
 OUTPUT HackathonPaper.run.xml
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
