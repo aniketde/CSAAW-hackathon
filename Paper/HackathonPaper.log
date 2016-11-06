@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.9)  27 SEP 2016 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.10.20)  6 NOV 2016 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **HackathonPaper.tex
 (./HackathonPaper.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -32,40 +32,40 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 File: latin5.def 2015/03/17 v1.2c Input encoding file
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
+File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -86,8 +86,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -137,15 +137,15 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -162,10 +162,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen121
 )
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/03/03 v3.3 programmable bibliographies (PK/JW/AB)
+Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.sty
-Package: biblatex_ 2016/03/03 v3.3 programmable bibliographies (biber) (PK/JW/A
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2015/04/19 v3.0 programmable bibliographies (biber) (PK/JW/A
 B)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -315,18 +315,18 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedlistf=\count197
 \c@location=\count198
 \c@savedlocation=\count199
-\c@organization=\count266
-\c@savedorganization=\count267
-\c@origlocation=\count268
-\c@savedoriglocation=\count269
-\c@origpublisher=\count270
-\c@savedorigpublisher=\count271
-\c@publisher=\count272
-\c@savedpublisher=\count273
-\c@language=\count274
-\c@savedlanguage=\count275
-\c@pageref=\count276
-\c@savedpageref=\count277
+\c@organization=\count200
+\c@savedorganization=\count201
+\c@origlocation=\count202
+\c@savedoriglocation=\count203
+\c@origpublisher=\count204
+\c@savedorigpublisher=\count205
+\c@publisher=\count206
+\c@savedpublisher=\count207
+\c@language=\count208
+\c@savedlanguage=\count209
+\c@pageref=\count210
+\c@savedpageref=\count211
 \shorthandwidth=\skip54
 \shortjournalwidth=\skip55
 \shortserieswidth=\skip56
@@ -337,39 +337,39 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/03/03 v3.3 biblatex compatibility (PK/JW/AB)
+File: blx-compat.def 2015/04/19 v3.0 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex_.def' found.
+Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_.def
-File: biblatex_.def 
-\c@textcitecount=\count278
-\c@textcitetotal=\count279
-\c@textcitemaxnames=\count280
-\c@biburlnumpenalty=\count281
-\c@biburlucpenalty=\count282
-\c@biburllcpenalty=\count283
-\c@smartand=\count284
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count212
+\c@textcitetotal=\count213
+\c@textcitemaxnames=\count214
+\c@biburlnumpenalty=\count215
+\c@biburlucpenalty=\count216
+\c@biburllcpenalty=\count217
+\c@smartand=\count218
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
+File: numeric.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count285
-\c@bbx:relatedtotal=\count286
+File: standard.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count219
+\c@bbx:relatedtotal=\count220
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2016/03/03 v3.3 biblatex citation style (PK/JW/AB)
+File: numeric.cbx 2015/04/19 v3.0 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -392,104 +392,17 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
+File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count287
-\@quotereset=\count288
+\@quotelevel=\count221
+\@quotereset=\count222
 
 (./HackathonPaper.aux
-! Undefined control sequence.
-l.3 \abx@aux@refcontext
-                       {nty/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Label `fig:overall' multiply defined.
 
 
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \abx@aux@refcontext{n
-                         ty/global/}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.5 \abx@aux@segm
-                 {0}{0}{grave2014ceramics}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.7 \abx@aux@segm
-                 {0}{0}{jung2015west}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \abx@aux@segm
-                  {0}{0}{davis1979late}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 \abx@aux@segm
-                  {0}{0}{rutter1975ceramic}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.22 \abx@aux@segm
-                  {0}{0}{demand2011mediterranean}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.24 \abx@aux@segm
-                  {0}{0}{mommsen2002complete}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.25 \abx@aux@segm
-                  {0}{0}{grave2014ceramics}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.40 \abx@aux@segm
-                  {0}{0}{davis1979late}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Label `fig:overall@cref' multiply defined.
 
 )
 \openout1 = `HackathonPaper.aux'.
@@ -542,33 +455,17 @@ LaTeX Font Info:    ... okay on input line 19.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-Overfull \hbox (2.36227pt too wide) in paragraph at lines 3--13
-[]\OT1/cmr/m/n/10 nty/global/  00grave2014ceramics  00jung2015west           00
-davis1979late  00rut-ter1975ceramic
- []
-
-
-Overfull \hbox (22.0568pt too wide) in paragraph at lines 3--13
-\OT1/cmr/m/n/10 00de-mand2011mediterranean  00momm-sen2002complete 00grave2014c
-eramics               00davis1979late
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
-
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
+\scratchcounter=\count223
 \scratchdimen=\dimen122
 \scratchbox=\box28
-\nofMPsegments=\count290
-\nofMParguments=\count291
+\nofMPsegments=\count224
+\nofMParguments=\count225
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count292
+\MPscratchCnt=\count226
 \MPscratchDim=\dimen123
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
+\MPnumerator=\count227
+\makeMPintoPDFobject=\count228
 \everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -607,9 +504,6 @@ Package biblatex Info: ... file 'HackathonPaper.bbl' found.
 (./HackathonPaper.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -620,81 +514,92 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./intro_from_Raymundo.tex)
+(./intro_from_Raymundo.tex) [1
 
-LaTeX Warning: Citation 'grave2014ceramics' on page 2 undefined on input line 4
-0.
-
-
-LaTeX Warning: Citation 'jung2015west' on page 2 undefined on input line 40.
-
-[2]
-Overfull \hbox (42.54016pt too wide) in paragraph at lines 64--65
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (42.54016pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
-
-LaTeX Warning: Citation 'davis1979late' on page 3 undefined on input line 71.
-
-
-LaTeX Warning: Citation 'rutter1975ceramic' on page 3 undefined on input line 7
-1.
-
-<pottery2.png, id=14, 549.55313pt x 455.45157pt>
+<pottery2.png, id=10, 549.55313pt x 455.45157pt>
 File: pottery2.png Graphic file (type png)
  <use pottery2.png>
-Package pdftex.def Info: pottery2.png used on input line 75.
+Package pdftex.def Info: pottery2.png used on input line 82.
 (pdftex.def)             Requested size: 416.83289pt x 345.46573pt.
 
-
-LaTeX Warning: Citation 'demand2011mediterranean' on page 3 undefined on input 
-line 76.
-
-
-LaTeX Warning: Citation 'mommsen2002complete' on page 3 undefined on input line
- 80.
-
-
-LaTeX Warning: Citation 'grave2014ceramics' on page 3 undefined on input line 8
-0.
-
-<korakou.jpg, id=15, 602.25pt x 402.50375pt>
+<korakou.jpg, id=11, 602.25pt x 402.50375pt>
 File: korakou.jpg Graphic file (type jpg)
  <use korakou.jpg>
-Package pdftex.def Info: korakou.jpg used on input line 84.
+Package pdftex.def Info: korakou.jpg used on input line 91.
 (pdftex.def)             Requested size: 416.83289pt x 278.59386pt.
 
-(./motivation_dataset.tex [3] [4 <./pottery2.png>]
+(./motivation_dataset.tex [2] [3 <./pottery2.png>]
 
-LaTeX Warning: Reference `fig:example_of_shreds_in_the_database' on page 5 unde
+LaTeX Warning: Reference `fig:example_of_shreds_in_the_database' on page 4 unde
 fined on input line 26.
 
-) (./Problem_Formulation.tex [5 <./korakou.jpg>]
+) (./Problem_Formulation.tex [4 <./korakou.jpg>]) (./Methdology.tex [5])
+(./Similarity.tex [6]) (./Results.tex
+<Network_evolution.png, id=40, 694.595pt x 891.33pt>
+File: Network_evolution.png Graphic file (type png)
 
-LaTeX Warning: Citation 'davis1979late' on page 6 undefined on input line 11.
+<use Network_evolution.png>
+Package pdftex.def Info: Network_evolution.png used on input line 9.
+(pdftex.def)             Requested size: 416.83289pt x 534.91093pt.
+ [7] [8 <./Network_evolution.png>]
+<Overall_Network.png, id=48, 357.83687pt x 301.125pt>
+File: Overall_Network.png Graphic file (type png)
 
-) (./Methdology.tex [6])
+<use Overall_Network.png>
+Package pdftex.def Info: Overall_Network.png used on input line 44.
+(pdftex.def)             Requested size: 416.83289pt x 350.79395pt.
 
-! LaTeX Error: File `similarity.tex' not found.
+<Overall_network_direct.png, id=50, 401.5pt x 301.125pt>
+File: Overall_network_direct.png Graphic file (type png)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+<use Overall_network_direct.png>
+Package pdftex.def Info: Overall_network_direct.png used on input line 51.
+(pdftex.def)             Requested size: 416.83289pt x 312.64798pt.
+) (./conclusion.tex) [9 <./Overall_Network.png>] [10 <./Overall_network_direct.
+png>] [11] (./HackathonPaper.aux)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.103 \input{similarity}
-                        ^^M
-*** (cannot \read from terminal in nonstop modes)
+LaTeX Warning: There were undefined references.
 
- 
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'HackathonPaper.run.xml'.
+\openout1 = `HackathonPaper.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9943 strings out of 493029
- 171286 string characters out of 6136235
- 578852 words of memory out of 5000000
- 13358 multiletter control sequences out of 15000+600000
- 12678 words of font info for 49 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 44i,9n,32p,1464b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 9841 strings out of 495003
+ 168990 string characters out of 6181404
+ 591294 words of memory out of 5000000
+ 12944 multiletter control sequences out of 15000+600000
+ 12370 words of font info for 48 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,9n,48p,1464b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on HackathonPaper.pdf (11 pages, 506144 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
