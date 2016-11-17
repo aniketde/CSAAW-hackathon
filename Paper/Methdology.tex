@@ -14,17 +14,17 @@ $$ \| x^i_m - x^j_l \|^2 = \sum_{k=1}^L ( (x^i_m)_k - (x^j_l)_k )^2$$
 
 where $(x^i_m)_k$ refers to the $k$-th (normalized) chemical concentration of artifact $x^i_m$.
 
-This in turn is used to construct many similarity measures, for instance
+This distance is taken to represent reasonably when two artifacts are similar. If their distance is small they are considered more similar than if their distance is large. The square distance can serve as the basis to construct many other similarity measures, for instance
 
 $$ k(x^i_m,x^j_l) = \exp(-h\|x^i_m - x^j_l \|^2)$$
 
-where $h>0$ is a fitting parameter. This corresponds to the widely used Gaussian kernel. Other similarity measures $k$ between artifacts based on their chemical composition are possible. The question of which similarity measure between chemical composition of artifacts is more appropriate for statistical inference is an important one, but we do not consider it further.
+where $h>0$ is a parameter. This corresponds to the widely used Gaussian kernel. Other similarity measures $k$ between artifacts based on their chemical composition are possible. The question of which similarity measure between artifacts based on chemical compositions is more appropriate for statistical inference is an important one, but we do not consider it further.
 
-The challenge is then to construct a similarity measure between different sites based on the similarities ${k(x^i_m,x^j_l)}$ between their respective artifacts. We propose constructing such similarity function by looking at the average similarity between all pair of artifacts $(x^i_m,x^j_l)$ belonging to sites $X^i$ and $X^j$, respectively, given by
+The challenge is to construct a similarity measure between different sites based on the similarities ${k(x^i_m,x^j_l)}$ between their respective artifacts. We propose constructing such similarity function by looking at the average similarity between all pair of artifacts $(x^i_m,x^j_l)$ belonging to sites $X^i$ and $X^j$, respectively, given by
 
 $$S(X^i,X^j) = \frac{1}{n_i n_j} \sum_{m=1}^{n_i} \sum_{l=1}^{n_j} k(x^i_m,x^j_l).$$
 
-The justification for this similarity measure between archaeological sites is given by the theory of kernel mean embedding, as described below.
+The justification for this similarity measure between archaeological sites is given by the theory of kernel mean embedding, as described in Section~\ref{sec:kme}.
 
 We now wish to illustrate how well the similarity measure $S$ performs in finding similarities between archaeological sites based on the chemical composition of their respective artifacts. We do this by providing a network plot of the archaeological sites, where two sites $X^i$ and $X^j$ are connected if their similarity $S(X^i,X^j)$ is larger than a prescribed threshold. The results are illustrated in the figures..
 
