@@ -57,4 +57,4 @@ def network_for_era(timeline):
     print S_direction
     #plot_network(Sim,plot_type='geo',timeline=timeline,thres=thres,label_type='numbers')
     plot_era_network(abs(SimEra),plot_type='plain',timeline=timeline,thres=thres,label_type='names')
-    
+    #plot_network(S_direction,plot_type='geo',timeline=timeline,thres=thres,label_type='numbers')

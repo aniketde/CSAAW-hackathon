@@ -63,7 +63,7 @@ SimilarityFlag = 1 #0 if euclidean DISTANCE (note distance and similarity), 1 if
 
 X, Y = datasetLabels(NormalizationFlag,SimilarityFlag,filepath)
 numInstances = X.shape[0]
-numTrain = 750
+numTrain = 500
 ind = np.random.permutation(numInstances)
 XTrain = X[ind[0:numTrain],:]
 YTrain = Y[ind[0:numTrain]]
@@ -74,12 +74,14 @@ YTest = Y[ind[numTrain:]]
 clf = SVC()
 clf.fit(XTrain, YTrain)
 YPred = clf.predict(XTest)
+print numTrain
+print numInstances
 print YPred.shape, YTest.shape
 print np.sum(YPred == YTest)/float(numInstances - numTrain)
 
 #plt.plot(YPred)
 #plt.plot(Y)
 #plt.show()
-print np.sum(YTest==0), np.sum(YTest==1),np.sum(YTest==2),np.sum(YTest==3),np.sum(YTest==4)
-print np.sum(YPred==0), np.sum(YPred==1),np.sum(YPred==2),np.sum(YPred==3),np.sum(YPred==4)
+#print np.sum(YTest==0), np.sum(YTest==1),np.sum(YTest==2),np.sum(YTest==3),np.sum(YTest==4)
+#print np.sum(YPred==0), np.sum(YPred==1),np.sum(YPred==2),np.sum(YPred==3),np.sum(YPred==4)
 
