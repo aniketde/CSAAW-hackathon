@@ -128,9 +128,6 @@ Quantitative work in classifying pottery mainly uses data from neutron activatio
 
 \section{method}
 
-
-%\bibliographystyle{plain}
-%\bibliography{Hackathon}
-
+\printbibliography
 
 \end{document}

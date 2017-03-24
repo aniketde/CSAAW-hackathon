@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 NOV 2016 09:25
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.10.20)  16 NOV 2016 18:52
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Results.tex
 (./Results.tex
+<<<<<<< HEAD
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+=======
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 2 languages loaded.
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -13,6 +22,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< HEAD
 l.2 I
      n \cref{evolution}, similarity results are displayed for each of four e...
 
@@ -766,4 +776,28 @@ Here is how much of TeX's memory you used:
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  20i,2n,26p,527b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+l.5 I
+     n \cref{fig:evolution}, we generated similarity plots for the various s...
+
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.5 I
+     n \cref{fig:evolution}, we generated similarity plots for the various s...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 495003
+ 267 string characters out of 6181404
+ 44974 words of memory out of 5000000
+ 3343 multiletter control sequences out of 15000+600000
+ 695 words of font info for 4 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 5i,0n,4p,651b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 !  ==> Fatal error occurred, no output PDF file produced!

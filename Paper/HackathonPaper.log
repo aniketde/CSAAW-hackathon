@@ -1,15 +1,28 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 NOV 2016 18:26
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.10.20)  16 NOV 2016 19:05
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **HackathonPaper.tex
 (./HackathonPaper.tex
+<<<<<<< HEAD
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+=======
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 )
 \c@part=\count79
 \c@section=\count80
@@ -31,20 +44,35 @@ Package: inputenc 2014/04/30 v1.2b Input encoding file
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/latin5.def
 File: latin5.def 2014/04/30 v1.2b Input encoding file
 ))
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
@@ -136,16 +164,27 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
+<<<<<<< HEAD
 Package graphics Info: Driver file: pdftex.def on input line 91.
+=======
+Package graphics Info: Driver file: pdftex.def on input line 94.
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -161,12 +200,21 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2013/11/25 v2.8a programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex2.sty
 Package: biblatex2 2013/11/25 v2.8a programmable bibliographies (biber) (PK/JW/
 AB)
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2015/04/19 v3.0 programmable bibliographies (biber) (PK/JW/A
+B)
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
@@ -267,6 +315,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+<<<<<<< HEAD
 \c@afterword=\count147
 \c@savedafterword=\count148
 \c@annotator=\count149
@@ -338,10 +387,90 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2013/11/25 v2.8a biblatex compatibility (PK/JW/AB)
+=======
+\c@afterword=\count146
+\c@savedafterword=\count147
+\c@annotator=\count148
+\c@savedannotator=\count149
+\c@author=\count150
+\c@savedauthor=\count151
+\c@bookauthor=\count152
+\c@savedbookauthor=\count153
+\c@commentator=\count154
+\c@savedcommentator=\count155
+\c@editor=\count156
+\c@savededitor=\count157
+\c@editora=\count158
+\c@savededitora=\count159
+\c@editorb=\count160
+\c@savededitorb=\count161
+\c@editorc=\count162
+\c@savededitorc=\count163
+\c@foreword=\count164
+\c@savedforeword=\count165
+\c@holder=\count166
+\c@savedholder=\count167
+\c@introduction=\count168
+\c@savedintroduction=\count169
+\c@namea=\count170
+\c@savednamea=\count171
+\c@nameb=\count172
+\c@savednameb=\count173
+\c@namec=\count174
+\c@savednamec=\count175
+\c@translator=\count176
+\c@savedtranslator=\count177
+\c@shortauthor=\count178
+\c@savedshortauthor=\count179
+\c@shorteditor=\count180
+\c@savedshorteditor=\count181
+\c@labelname=\count182
+\c@savedlabelname=\count183
+\c@institution=\count184
+\c@savedinstitution=\count185
+\c@lista=\count186
+\c@savedlista=\count187
+\c@listb=\count188
+\c@savedlistb=\count189
+\c@listc=\count190
+\c@savedlistc=\count191
+\c@listd=\count192
+\c@savedlistd=\count193
+\c@liste=\count194
+\c@savedliste=\count195
+\c@listf=\count196
+\c@savedlistf=\count197
+\c@location=\count198
+\c@savedlocation=\count199
+\c@organization=\count200
+\c@savedorganization=\count201
+\c@origlocation=\count202
+\c@savedoriglocation=\count203
+\c@origpublisher=\count204
+\c@savedorigpublisher=\count205
+\c@publisher=\count206
+\c@savedpublisher=\count207
+\c@language=\count208
+\c@savedlanguage=\count209
+\c@pageref=\count210
+\c@savedpageref=\count211
+\shorthandwidth=\skip54
+\shortjournalwidth=\skip55
+\shortserieswidth=\skip56
+\shorttitlewidth=\skip57
+\shortauthorwidth=\skip58
+\shorteditorwidth=\skip59
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2015/04/19 v3.0 biblatex compatibility (PK/JW/AB)
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 
 \c@textcitecount=\count213
@@ -351,10 +480,22 @@ File: biblatex.def
 \c@biburlucpenalty=\count217
 \c@biburllcpenalty=\count218
 \c@smartand=\count219
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count212
+\c@textcitetotal=\count213
+\c@textcitemaxnames=\count214
+\c@biburlnumpenalty=\count215
+\c@biburlucpenalty=\count216
+\c@biburllcpenalty=\count217
+\c@smartand=\count218
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
@@ -364,12 +505,28 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2013/11/25 v2.8a biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count220
 \c@bbx:relatedtotal=\count221
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count219
+\c@bbx:relatedtotal=\count220
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
 File: numeric.cbx 2013/11/25 v2.8a biblatex citation style (PK/JW/AB)
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2015/04/19 v3.0 biblatex citation style (PK/JW/AB)
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -391,11 +548,26 @@ File: biblatex.cfg
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count222
 \@quotereset=\count223
+=======
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count221
+\@quotereset=\count222
+
+(./HackathonPaper.aux
+
+LaTeX Warning: Label `fig:overall' multiply defined.
+
+
+LaTeX Warning: Label `fig:overall@cref' multiply defined.
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 
 (./HackathonPaper.aux)
 \openout1 = `HackathonPaper.aux'.
@@ -447,6 +619,7 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< HEAD
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count224
@@ -459,6 +632,20 @@ LaTeX Font Info:    ... okay on input line 19.
 \MPscratchDim=\dimen123
 \MPnumerator=\count228
 \makeMPintoPDFobject=\count229
+=======
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count223
+\scratchdimen=\dimen122
+\scratchbox=\box28
+\nofMPsegments=\count224
+\nofMParguments=\count225
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count226
+\MPscratchDim=\dimen123
+\MPnumerator=\count227
+\makeMPintoPDFobject=\count228
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -507,6 +694,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<<<<<<< HEAD
 (./intro_from_Raymundo.tex)
 
 LaTeX Warning: Citation 'grave2014ceramics' on page 1 undefined on input line 4
@@ -530,11 +718,22 @@ LaTeX Warning: Citation 'rutter1975ceramic' on page 2 undefined on input line 7
 1.
 
 <pottery2.png, id=11, 549.55313pt x 455.45157pt>
+=======
+(./intro_from_Raymundo.tex) [1
+
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (42.54016pt too wide) in paragraph at lines 71--72
+[][] 
+ []
+
+<pottery2.png, id=10, 549.55313pt x 455.45157pt>
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 File: pottery2.png Graphic file (type png)
  <use pottery2.png>
-Package pdftex.def Info: pottery2.png used on input line 75.
+Package pdftex.def Info: pottery2.png used on input line 82.
 (pdftex.def)             Requested size: 416.83289pt x 345.46573pt.
 
+<<<<<<< HEAD
 
 LaTeX Warning: Citation 'demand2011mediterranean' on page 2 undefined on input 
 line 76.
@@ -548,9 +747,12 @@ LaTeX Warning: Citation 'grave2014ceramics' on page 2 undefined on input line 8
 0.
 
 <korakou.jpg, id=12, 602.25pt x 402.50375pt>
+=======
+<korakou.jpg, id=11, 602.25pt x 402.50375pt>
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 File: korakou.jpg Graphic file (type jpg)
  <use korakou.jpg>
-Package pdftex.def Info: korakou.jpg used on input line 84.
+Package pdftex.def Info: korakou.jpg used on input line 91.
 (pdftex.def)             Requested size: 416.83289pt x 278.59386pt.
 
 (./motivation_dataset.tex [2] [3 <./pottery2.png>]
@@ -558,6 +760,7 @@ Package pdftex.def Info: korakou.jpg used on input line 84.
 LaTeX Warning: Reference `fig:example_of_shreds_in_the_database' on page 4 unde
 fined on input line 26.
 
+<<<<<<< HEAD
 ) (./Problem_Formulation.tex [4 <./korakou.jpg>]
 
 LaTeX Warning: Citation 'davis1979late' on page 5 undefined on input line 11.
@@ -598,12 +801,44 @@ LaTeX Warning: There were undefined references.
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                HackathonPaper
 (biblatex)                and rerun LaTeX afterwards.
+=======
+) (./Problem_Formulation.tex [4 <./korakou.jpg>]) (./Methdology.tex [5])
+(./Similarity.tex [6]) (./Results.tex
+<Network_evolution.png, id=40, 694.595pt x 891.33pt>
+File: Network_evolution.png Graphic file (type png)
+
+<use Network_evolution.png>
+Package pdftex.def Info: Network_evolution.png used on input line 10.
+(pdftex.def)             Requested size: 416.83289pt x 534.91093pt.
+ [7] [8 <./Network_evolution.png>]
+<Overall_Network.png, id=48, 357.83687pt x 301.125pt>
+File: Overall_Network.png Graphic file (type png)
+
+<use Overall_Network.png>
+Package pdftex.def Info: Overall_Network.png used on input line 45.
+(pdftex.def)             Requested size: 416.83289pt x 350.79395pt.
+
+<Overall_network_direct.png, id=50, 401.5pt x 301.125pt>
+File: Overall_network_direct.png Graphic file (type png)
+
+<use Overall_network_direct.png>
+Package pdftex.def Info: Overall_network_direct.png used on input line 52.
+(pdftex.def)             Requested size: 416.83289pt x 312.64798pt.
+) (./conclusion.tex) [9 <./Overall_Network.png>] [10 <./Overall_network_direct.
+png>] [11] (./HackathonPaper.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 
 Package logreq Info: Writing requests to 'HackathonPaper.run.xml'.
 \openout1 = `HackathonPaper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  9653 strings out of 493117
  164154 string characters out of 6135433
  567047 words of memory out of 5000000
@@ -635,4 +870,35 @@ PDF statistics:
  77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 9841 strings out of 495003
+ 168990 string characters out of 6181404
+ 592294 words of memory out of 5000000
+ 12944 multiletter control sequences out of 15000+600000
+ 12370 words of font info for 48 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,9n,48p,1464b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on HackathonPaper.pdf (11 pages, 506531 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 

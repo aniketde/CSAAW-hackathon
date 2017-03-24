@@ -1,4 +1,3 @@
-
 from sklearn import datasets
 from sklearn.multiclass import OutputCodeClassifier
 from sklearn.svm import SVC
@@ -13,30 +12,31 @@ import os
 from sklearn.model_selection import KFold, cross_val_score
 from sklearn.model_selection import GridSearchCV
 
-def datasetLabels(NormalizationFlag,SimilarityFlag,filepath):
+def datasetLabelsEra(NormalizationFlag,SimilarityFlag,filepath):
     dataset_list = []
     cwd = os.getcwd()
-    for files in glob.glob(cwd +filepath+ "*.csv"):
+    for files in glob.glob(cwd + filepath+"*.csv"):
         dataset_list.append(files)
-    
+
     N = len(dataset_list)
     dataset = genfromtxt(dataset_list[1], delimiter=',')
-    datasetTotal = np.zeros([1,dataset.shape[1]-1])
-    print dataset.shape
+    datasetTotal = np.zeros([1,dataset.shape[1]-2])
     labelTotal = np.zeros([1])
     for site in range(0,N):
-    
+
         dataset_file = dataset_list[site]
         dataset = genfromtxt(dataset_file, delimiter=',')
-    
+
         if len(dataset.shape) == 2:
-            datasetX = dataset[:,:-1]
-            datasetID = dataset[:,-1]
-        else: 
+            datasetX = dataset[:,:-2]
+            datasetERA = dataset[:,-1]
+            datasetID = dataset[:,-2]
+        else:
             dataset = dataset[np.newaxis,:]
-            datasetX = dataset[:,:-1]
-            datasetID = dataset[:,-1]
-    
+            datasetX = dataset[:,:-2]
+            datasetERA = dataset[:,-1]
+            datasetID = dataset[:,-2]
+
         if NormalizationFlag == 0:
             dataset_normalized = preprocessing.normalize(datasetX, norm='l2')
         elif NormalizationFlag == 1:
@@ -44,54 +44,52 @@ def datasetLabels(NormalizationFlag,SimilarityFlag,filepath):
         elif NormalizationFlag == 2:
             min_max_scaler = preprocessing.MinMaxScaler(feature_range=(0, 1))
             dataset_normalized = min_max_scaler.fit_transform(datasetX)
-        
+
         dataset_site = 'dataset' + str(site)
         exec (dataset_site + " = dataset_normalized")
+        datasetEraOld = np.copy(datasetERA)
+        #print datasetERA.shape[0]
+        for ii in range(0,datasetERA.shape[0]):
+            if datasetEraOld[ii] <= -1400:
+                datasetERA[ii] = 1
+            elif datasetEraOld[ii] <=-1300 and datasetEraOld[ii] >= -1399:
+                datasetERA[ii] = 2
+            elif datasetEraOld[ii] <= -1200 and datasetEraOld[ii] >= -1299:
+                datasetERA[ii] = 3
+            elif datasetEraOld[ii] <= -1050 and datasetEraOld[ii] >= -1199:
+                datasetERA[ii] = 4
+            elif datasetEraOld[ii] >= -1050:
+                datasetERA[ii] = 5
+        dataset_site_era = 'dataset_era' + str(site)
+        exec (dataset_site_era + " = datasetERA" )
+
         datasetTotal = np.concatenate((datasetTotal,dataset_normalized),axis = 0)
-        labels = site*np.ones([dataset_normalized.shape[0]])
-        labelTotal = np.concatenate((labelTotal,labels),axis = 0)
-        
+        #labels = site*np.ones([dataset_normalized.shape[0]])
+        labelTotal = np.concatenate((labelTotal,datasetERA),axis = 0)
+
     datasetTotal = datasetTotal[1:,:]
     labelTotal = labelTotal[1:]
     
+    
     return datasetTotal, labelTotal
 
-filepath = "/Site_specific_data/"
 
+filepath = "/Site_specific_data_with_ERA/"
 
 NormalizationFlag = 1 # 0 is normalizing by norm, 1 is scale it, 2 is make it in between [0,1]
 SimilarityFlag = 1 #0 if euclidean DISTANCE (note distance and similarity), 1 if RKHS (mean embedding) with linear kernel, 2 if RKHS with Gaussian kernel
 
-<<<<<<< HEAD
-X, Y = datasetLabels(NormalizationFlag,SimilarityFlag,filepath)
-numInstances = X.shape[0]
-numTrain = 500
-ind = np.random.permutation(numInstances)
-XTrain = X[ind[0:numTrain],:]
-YTrain = Y[ind[0:numTrain]]
-XTest = X[ind[numTrain:],:]
-YTest = Y[ind[numTrain:]]
+X, Y = datasetLabelsEra(NormalizationFlag,SimilarityFlag,filepath)
+print Y
+print X.shape
 
-#print Y
-clf = SVC()
-clf.fit(XTrain, YTrain)
-YPred = clf.predict(XTest)
-print numTrain
-print numInstances
-print YPred.shape, YTest.shape
-print np.sum(YPred == YTest)/float(numInstances - numTrain)
 
-#plt.plot(YPred)
-#plt.plot(Y)
-#plt.show()
-#print np.sum(YTest==0), np.sum(YTest==1),np.sum(YTest==2),np.sum(YTest==3),np.sum(YTest==4)
-#print np.sum(YPred==0), np.sum(YPred==1),np.sum(YPred==2),np.sum(YPred==3),np.sum(YPred==4)
-=======
-T = 20
+T = 5
 numTrain = 500
 accu = np.zeros([T])
 for tt in range(0,T):
-    X, Y = datasetLabels(NormalizationFlag,SimilarityFlag,filepath)
+    X, Y = datasetLabelsEra(NormalizationFlag,SimilarityFlag,filepath)
+    Y = Y.astype(int)
     numInstances = X.shape[0]
     ind = np.random.permutation(numInstances)
     XTrain = X[ind[0:numTrain],:]
@@ -138,6 +136,5 @@ for tt in range(0,T):
     print "Accuracy with Cross Validation is: "
     accu[tt] = np.sum(YPred == YTest)/float(numInstances - numTrain)
     print np.sum(YPred == YTest)/float(numInstances -numTrain)
->>>>>>> e00e7b6bd0be1037ecfb7fe281abd80955bdc7e0
 
 print "Average accuracy is: " + str(np.mean(accu))
